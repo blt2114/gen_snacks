@@ -1,4 +1,4 @@
-# script for problem one
+# script for problem one, takes two fastq files
 if [ "$#" -ne 2 ];then
     echo "./p1.sh <fail.fastq> <pass.fastq>"
     exit
