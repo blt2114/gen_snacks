@@ -12,7 +12,7 @@ def find_longest_read(all_fastq_files):
                 pass
             fourthlines = itertools.islice(f, 0, None, 4)
             for line in fourthlines:
-                sizes.append(len(line))
+                sizes.append(len(line.strip()))
             
             sizes_max = max(sizes)
     
