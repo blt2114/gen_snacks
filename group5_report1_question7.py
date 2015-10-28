@@ -1,24 +1,33 @@
+# Example to run:
+# python group5_report1_question7.py fastq/template-pass.fastq
+# python group5_report1_question7.py fastq/complement-pass.fastq
+# python group5_report1_question7.py fastq/2D-pass.fastq
+
+import sys
 import itertools
-import rpy2.robjects as robjects
                 
-def find_longest_read(all_fastq_files):
+def find_longest_read(fastq_file):
    
     sizes = []
     
-    for fastq_file in all_fastq_files:
-        with open(fastq_file, 'rb') as f:
-            # skip first line
-            for _ in itertools.islice(f, 0, 1):
-                pass
-            fourthlines = itertools.islice(f, 0, None, 4)
-            for line in fourthlines:
-                sizes.append(len(line.strip()))
+    with open(fastq_file, 'rb') as f:
+        # skip first line
+        for _ in itertools.islice(f, 0, 1):
+            pass
+        fourthlines = itertools.islice(f, 0, None, 4)
+        for line in fourthlines:
+            sizes.append(len(line.strip()))
             
-            sizes_max = max(sizes)
+    sizes_max = max(sizes)
     
-        print "Longest read for", fastq_file, "is", sizes_max
+    print "Longest read for", fastq_file, "is", sizes_max, "nucleotides"
 
-all_fastq_files = ["fastq/template-pass.fastq", "fastq/complement-pass.fastq",\
-                    "fastq/2D-pass.fastq"]
+if __name__ == '__main__':
+    if len(sys.argv) == 2:
+        script, fastq_file = sys.argv
 
-find_longest_read(all_fastq_files)
+        find_longest_read(fastq_file)
+    else:
+        print 'To run: python group5_report1_question7.py <<.fastq file>>'
+        print 'Example: \
+            python group5_report1_question7.py fastq/template-pass.fastq'
