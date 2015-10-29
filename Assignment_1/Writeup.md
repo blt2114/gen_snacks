@@ -17,19 +17,19 @@
 6. 
    Length distribution of 1D (template and complement) reads, failed
    
-   <img src="Assignment_1/img/question6/1D-fail.png" width="600">
+   <img src="./img/question6/1D-fail.png" width="600">
    
    Length distribution of 2D reads, failed
    
-   <img src="Assignment_1/img/question6/2D-fail.png" width="600">
+   <img src="./img/question6/2D-fail.png" width="600">
    
    Length distribution of 1D (template and complement) reads, passed
    
-   <img src="Assignment_1/img/question6/1D-pass.png" width="600">
+   <img src="./img/question6/1D-pass.png" width="600">
    
    Length distribution of 2D reads, passed
    
-   <img src="Assignment_1/img/question6/2D-pass.png" width="600">
+   <img src="./img/question6/2D-pass.png" width="600">
    
 7. Longest read obtained for:
 
