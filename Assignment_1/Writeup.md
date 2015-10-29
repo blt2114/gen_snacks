@@ -72,4 +72,25 @@
    
    `$ python group5_report1_question10.py fastq/2D-fail.fastq fastq/2D-pass.fastq`
 
-11. TODO
+11. Linear regression was performed on k-mer count features of sequences and sequencing time durations.
+
+Several k-mer lenghts were considered.  Initially we thought to use 5-mers, which would give us a 1024 dimensional feature space, however, since the data is fairly noisy and we only fit to about 4000 data points, this first model overfit.
+
+To pick the ideal kmer length, we performed five-fold cross-validation, and found that k-mers of length 3 gave the best results.
+
+To run, provide the path to a tsv containing sequences and labels and the kmer length as arguments:
+    `$python group5_report1_question11.py data/seq_times.tsv 3`
+
+The mean and variance of the R<sup>2</sup> values and across the 5 folds is provided.
+
+The data points are shuffled to prevent any biases present in the order of the
+data points.
+
+###Train set performance:
+* Mean R<sup>2</sup>: 0.671546 
+* Var R<sup>2</sup>: 0.001106
+
+
+###Test set performance:
+* Mean R<sup>2</sup>: 0.649408
+* Var R<sup>2</sup>: 0.010450
