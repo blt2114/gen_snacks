@@ -22,12 +22,15 @@
    `$ python group5_report1_question2.py fastq/2D-fail.fastq fastq/2D-pass.fastq fastq/1D-fail.fastq fastq/1D-pass.fastq`
 
 3. Plot Cummulative Distribution of Nucleotides over Time (hours)
+
    **Cummulative Distribution of Nucleotide reads, passed**
+   
    `$ poretools yield_plot --plot-type basepairs pass`
 
    <img src="./img/question3/question3_pass.png" width="600">
 
    **Cummulative Distribution of Nucleotide reads, passed**
+   
    `$ poretools yield_plot --plot-type basepairs pass`
 
    <img src="./img/question3/question3_fail.png" width="600">
