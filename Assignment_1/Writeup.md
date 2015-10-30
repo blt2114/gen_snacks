@@ -12,9 +12,15 @@
 
 3. TODO
 
-4. TODO
+4. Our point of diminishing return seemed to be at hour five, where we had 20,000,000 base pairs sequenced. If we extrapolate, we would be able to sequence 3.2 billion base pairs in 800 hours.
 
-5. TODO
+   It's important that this is based off of reads that passed the quality filter.
+   
+   If we account for failed reads as well (of which many were ignored due to no start time), we are reading at roughly twice the rate, so we would be able to read 3.2 billion base pairs in 400 hours.
+
+5. Using `$poretools qualdist$`, we can see the quality of reads and calculate the mean/standard deviation, which is 10.57 and 1.656 respectively (using Excel).
+
+   We can use the date modified rates (and verify by looking at the times of the reads) and use `$poretools qualdist$` on these separate data sets. From that, we get that the median is ,9 respectively. 
 
 6. 
    **Length distribution of 1D (template and complement) reads, failed**
