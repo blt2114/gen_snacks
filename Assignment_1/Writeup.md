@@ -126,6 +126,8 @@ The mean and variance of the R<sup>2</sup> values and across the 5 folds is prov
 The data points are shuffled to prevent any biases present in the order of the
 data points.
 
+   <img src="./img/question11/question11.png" width="600">
+
 ###Train set performance:
 * Mean R<sup>2</sup>: 0.671546 
 * Var R<sup>2</sup>: 0.001106
