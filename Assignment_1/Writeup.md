@@ -1,6 +1,17 @@
 #Assignment 1
 ##Quality Assessment MinION reads
-1. TODO
+1. Statistics on 1D vs 2D reads in Pass and Fail
+ * number of passed reads that are 1d: 0
+ * number of failed reads that are 2d: 1480
+ * number of total failed reads: 8660
+ * number of failed reads that are 1d: 7180
+ * 100 % of passed reads are 2D
+ * 17 % of failed reads are 2D
+ * 75% of 2D reads are 'Pass'
+ * 0% of 1D reads are 'Pass'
+
+` bash group5_report1_question1.sh downloads `
+
 
 2. Active Channels =  251.0
 
