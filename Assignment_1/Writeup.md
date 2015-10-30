@@ -18,9 +18,11 @@
    
    If we account for failed reads as well (of which many were ignored due to no start time), we are reading at roughly twice the rate, so we would be able to read 3.2 billion base pairs in 400 hours.
 
-5. Using `$poretools qualdist$`, we can see the quality of reads and calculate the mean/standard deviation, which is 10.57 and 1.656 respectively (using Excel).
+5. Using `poretools qualdist`, we can see the quality of reads and calculate the mean/standard deviation, which is 10.57 and 1.656 respectively (using Excel).
 
-   We can use the date modified rates (and verify by looking at the times of the reads) and use `$poretools qualdist$` on these separate data sets. From that, we get that the median is ,9 respectively. 
+   We can use the date modified rates (and verify by looking at the times of the reads) and use `poretools qualdist` on these separate data sets. From that, we get that the median is 10, 9 respectively.
+   
+   For the student t-test, (using 2-tailed, unpaired and unequal variance), we get p = 0.0782594968, implying we can't quite reject the null hypothesis that the distributions of the quality of reads between the first and last hour are different. 
 
 6. 
    **Length distribution of 1D (template and complement) reads, failed**
