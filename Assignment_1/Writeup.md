@@ -10,7 +10,7 @@
  * 75% of 2D reads are 'Pass'
  * 0% of 1D reads are 'Pass'
 
-` bash group5_report1_question1.sh downloads `
+ ` bash group5_report1_question1.sh downloads `
 
 
 2. Active Channels =  251.0
