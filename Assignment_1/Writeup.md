@@ -87,7 +87,7 @@
    ***R^2 = 0.389877842988***
 
    **Length versus Duration in Pore, passed**
-   <img src="./img/question9/passed" width="600">
+   <img src="./img/question9/passed.png" width="600">
    ***R^2 = 0.778978724524***
 
 10. Nucleotide composition of both 2D sequences that classified as 'passed' and as 'failed'
