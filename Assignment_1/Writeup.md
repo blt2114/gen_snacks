@@ -90,7 +90,6 @@ data points.
 * Mean R<sup>2</sup>: 0.671546 
 * Var R<sup>2</sup>: 0.001106
 
-
 ###Test set performance:
 * Mean R<sup>2</sup>: 0.649408
 * Var R<sup>2</sup>: 0.010450
