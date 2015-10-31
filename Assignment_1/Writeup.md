@@ -1,6 +1,17 @@
 #Assignment 1
 ##Quality Assessment MinION reads
-1. TODO
+1. Statistics on 1D vs 2D reads in Pass and Fail
+ * number of passed reads that are 1d: 0
+ * number of failed reads that are 2d: 1480
+ * number of total failed reads: 8660
+ * number of failed reads that are 1d: 7180
+ * 100 % of passed reads are 2D
+ * 17 % of failed reads are 2D
+ * 75% of 2D reads are 'Pass'
+ * 0% of 1D reads are 'Pass'
+
+ ` bash group5_report1_question1.sh downloads `
+
 
 2. Active Channels =  251.0
 
@@ -10,7 +21,19 @@
    
    `$ python group5_report1_question2.py fastq/2D-fail.fastq fastq/2D-pass.fastq fastq/1D-fail.fastq fastq/1D-pass.fastq`
 
-3. TODO
+3. Plot Cummulative Distribution of Nucleotides over Time (hours)
+
+   **Cummulative Distribution of Nucleotide reads, passed**
+   
+   `$ poretools yield_plot --plot-type basepairs pass`
+
+   <img src="./img/question3/question3_pass.png" width="600">
+
+   **Cummulative Distribution of Nucleotide reads, passed**
+   
+   `$ poretools yield_plot --plot-type basepairs pass`
+
+   <img src="./img/question3/question3_fail.png" width="600">
 
 4. Our point of diminishing return seemed to be at hour five, where we had 20,000,000 base pairs sequenced. If we extrapolate, we would be able to sequence 3.2 billion base pairs in 800 hours.
 
@@ -65,9 +88,21 @@
    
    `$ python group5_report1_question7.py fastq/2D-pass.fastq`
    
-8. TODO
+8. Sequence Length and DNA timing Correlation
 
-9. TODO
+   There is not a strong correlation between the sequence length and timing of a DNA strand passing through the pore (R^2 = 0.0599966384681). However, because the timing of the read sequences is strongly skewed to the right with most of the reads being sequenced earlier in the run, most of the longer sequences occurred earlier in the run. 
+   
+   <img src="./img/question8/question8.png" width="600">
+
+9. Sequence Length and Duration in Pore Correlation - Pass & Fail:
+   
+   **Length versus Duration in Pore, failed**
+   <img src="./img/question9/failed.png" width="600">   
+   ***R^2 = 0.389877842988***
+
+   **Length versus Duration in Pore, passed**
+   <img src="./img/question9/passed.png" width="600">
+   ***R^2 = 0.778978724524***
 
 10. Nucleotide composition of both 2D sequences that classified as 'passed' and as 'failed'
 
@@ -94,10 +129,11 @@ The mean and variance of the R<sup>2</sup> values and across the 5 folds is prov
 The data points are shuffled to prevent any biases present in the order of the
 data points.
 
+   <img src="./img/question11/question11.png" width="600">
+
 ###Train set performance:
 * Mean R<sup>2</sup>: 0.671546 
 * Var R<sup>2</sup>: 0.001106
-
 
 ###Test set performance:
 * Mean R<sup>2</sup>: 0.649408
