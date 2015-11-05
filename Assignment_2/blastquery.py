@@ -1,6 +1,9 @@
 import os
 import argparse
-from pprint import pprint
+import threading
+import time
+import random
+import Queue
 
 import poretools
 
@@ -26,18 +29,35 @@ def query(seq=TEST_SEQ):
             print("Invalid sequence.")
             exit(-1)
 
-    # DEBUG - remove this
-    print("Checking %s." % seq)
-    exit()
-
     try:
         return NCBIWWW.qblast('blastn', 'nr', seq,
                 format_type = 'Text',
-                megablast = False)
+                megablast = True)
     except Exception as e:
-        print(e)
+        return e
 
-def multiquery(filepath):
+def multiquery(seqs):
+    """
+    Actually does the querying; limit one per three seconds, using multithreads.
+
+    Limits:
+    3 queries at any given point
+    Queries spaced at least 3 seconds apart
+
+    """
+   # threads = threading.activeCount()
+   # lastRun = time.time()
+   # while(threads < 3 and time.time() - lastrun > 3):
+   #     threading.thread(target:query(seqs[0]))
+   #     lastrun = time.time()
+   #     seqs = seqs[1:]
+
+    for e in seqs:
+        print(query(e).read())
+        time.sleep(3)
+
+
+def multiseq(filepath):
     """
     Snags all filepaths for files ending in fast5 and extracts FASTA sequence.
     """
@@ -48,22 +68,25 @@ def multiquery(filepath):
         if f.endswith(".fast5"):
             fileset.append(filepath + "/" + f)
 
-    # DEBUG
-    fileset = fileset[:10]
+    # DEBUG - Reducing size
+    fileset = fileset[:4]
 
     # Passing off to poretools
     fileset = poretools.Fast5FileSet(fileset)
+    toReturn = []
 
     for f in fileset:
         lst = f.get_fastas("2D")
         fastas = [x.seq for x in lst]
         # TODO: What do we want to do with these sequences?
-        print(fastas)
+        toReturn.append(*fastas)
+
+    multiquery(toReturn)
 
 if __name__ == "__main__":
     args = parser.parse_args()
     if(args.filedir):
-        multiquery(args.filedir[0])
+        multiseq(args.filedir[0])
     elif(args.seq):
         query(args.seq[0])
 

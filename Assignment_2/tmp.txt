@@ -1,0 +1,2542 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTN 2.2.32+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: 3R68Y989015
+
+
+Database: Nucleotide collection (nt)
+           33,214,894 sequences; 106,427,473,057 total letters
+
+Query= 
+Length=1187
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 1, 2015  1:57 PM
+  Number of letters in database: 106,427,473,057
+  Number of sequences in database:  33,214,894
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 33214894
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 1187
+Length of database: 106427473057
+Length adjustment: 35
+Effective length of query: 1152
+Effective length of database: 105264951767
+Effective search space: 121265224435584
+Effective search space used: 121265224435584
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 23 (43.6 bits)
+
+
+
+
+
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTN 2.2.32+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: 3R69CR9G015
+
+
+Database: Nucleotide collection (nt)
+           33,214,894 sequences; 106,427,473,057 total letters
+Query= 
+Length=3077
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|EU221179.1|  Salmo salar clone 261P24 interferon-inducible ...  54.7    0.011
+gb|EU221180.1|  Salmo salar clone 272P16 chaperonin gene, comp...  54.7    0.011
+
+ALIGNMENTS
+>gb|EU221179.1| Salmo salar clone 261P24 interferon-inducible GTPase_b and interferon-inducible 
+GTPase_a genes, complete cds; and TCR-gamma 
+constant region locus
+Length=198067
+
+ Score = 54.7 bits (29),  Expect = 0.011
+ Identities = 31/32 (97%), Gaps = 0/32 (0%)
+ Strand=Plus/Minus
+
+Query  114   GTAATTCTTCATCAACATCTTTATGCTTTCGT  145
+             ||| ||||||||||||||||||||||||||||
+Sbjct  2736  GTATTTCTTCATCAACATCTTTATGCTTTCGT  2705
+
+
+>gb|EU221180.1| Salmo salar clone 272P16 chaperonin gene, complete cds; myosin 
+1 gene, partial cds; and TCR-gamma locus, partial sequence
+Length=209657
+
+ Score = 54.7 bits (29),  Expect = 0.011
+ Identities = 31/32 (97%), Gaps = 0/32 (0%)
+ Strand=Plus/Minus
+
+Query  114     GTAATTCTTCATCAACATCTTTATGCTTTCGT  145
+               ||| ||||||||||||||||||||||||||||
+Sbjct  200083  GTATTTCTTCATCAACATCTTTATGCTTTCGT  200052
+
+
+ Score = 52.8 bits (28),  Expect = 0.040
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  118     TTCTTCATCAACATCTTTATGCTTTCGT  145
+               ||||||||||||||||||||||||||||
+Sbjct  146532  TTCTTCATCAACATCTTTATGCTTTCGT  146505
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 1, 2015  1:57 PM
+  Number of letters in database: 106,427,473,057
+  Number of sequences in database:  33,214,894
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 33214894
+Number of Hits to DB: 15450837
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 3077
+Length of database: 106427473057
+Length adjustment: 36
+Effective length of query: 3041
+Effective length of database: 105231736873
+Effective search space: 320009711830793
+Effective search space used: 320009711830793
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 24 (45.4 bits)
+
+
+
+
+
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTN 2.2.32+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: 3R6AAFEP01R
+
+
+Database: Nucleotide collection (nt)
+           33,214,894 sequences; 106,427,473,057 total letters
+
+Query= 
+Length=9911
+
+
+<b>No significant similarity found.</b> For reasons why, <A HREF = "Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=FAQ"><b>click here</A>.</b><br><br>
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 1, 2015  1:57 PM
+  Number of letters in database: -946,709,339
+  Number of sequences in database:  33,214,894
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 33214894
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 9911
+Length of database: 106427473057
+Length adjustment: 37
+Effective length of query: 9874
+Effective length of database: 105198521979
+Effective search space: 1038730206020646
+Effective search space used: 1038730206020646
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 25 (47.3 bits)
+
+
+
+
+
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTN 2.2.32+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and
+Webb Miller (2000), "A greedy algorithm for aligning DNA
+sequences", J Comput Biol 2000; 7(1-2):203-14.
+
+
+Reference for database indexing: Aleksandr Morgulis, George
+Coulouris, Yan Raytselis, Thomas L. Madden, Richa Agarwala,
+Alejandro A. Schaffer (2008), "Database Indexing for
+Production MegaBLAST Searches", Bioinformatics 24:1757-1764.
+
+
+RID: 3R6AKT2601R
+
+
+Database: Nucleotide collection (nt)
+           33,214,894 sequences; 106,427,473,057 total letters
+Query= 
+Length=6161
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|AC203446.12|  Salmo salar BAC CH214-363E24 (Children's Hosp...  239     6e-58
+gb|EU621898.1|  Salmo salar clone 11F04_73D15 interferon alpha...  204     2e-47
+gb|EU221178.1|  Salmo salar clone 257A09 TCR gamma locus region    204     2e-47
+gb|EF467298.1|  Salmo salar clone 39N03 TCR-alpha/delta locus,...  204     2e-47
+gb|EF467295.1|  Salmo salar clone 15J19 TCR-alpha/delta locus,...  204     2e-47
+gb|BT058788.1|  Salmo salar clone ssal-rgf-503-053 Ras-related...  187     2e-42
+gb|BT045348.1|  Salmo salar clone ssal-rgf-518-373 Ras-related...  187     2e-42
+gb|EF427379.1|  Salmo salar clone BAC CHORI214-8I14, complete ...  182     1e-40
+ref|XM_014183179.1|  PREDICTED: Salmo salar piggyBac transposa...  172     6e-38
+ref|XM_014182831.1|  PREDICTED: Salmo salar uncharacterized LO...  172     6e-38
+ref|XM_014167680.1|  PREDICTED: Salmo salar zinc finger and SC...  172     6e-38
+gb|GU129139.1|  Salmo salar IgH locus A genomic sequence           167     3e-36
+gb|EU621900.1|  Oncorhynchus tshawytscha clone ChinookGH1 inte...  167     3e-36
+gb|EU221177.1|  Salmo salar clone 242N16 formin-binding protei...  167     3e-36
+gb|DQ156149.1|  Salmo salar clone BAC S0085O16, partial sequence   167     3e-36
+gb|KF870474.1|  Oncorhynchus mykiss transforming growth factor...  165     1e-35
+gb|HQ287746.1|  Coregonus clupeaformis heat shock cognate 70 k...  161     1e-34
+gb|EU025717.1|  Salmo salar coiled-coil transcriptional coacti...  161     1e-34
+gb|DQ156150.1|  Salmo salar BAC S0188I22, partial sequence         161     1e-34
+emb|AM233509.1|  Salmo salar tlr22a gene for Toll-like recepto...  161     1e-34
+gb|HM208332.1|  Oncorhynchus mykiss clone BAC20-C13 zinc trans...  159     5e-34
+gb|GQ505858.1|  Salmo salar clone BAC CHORI214-129P21 genomic ...  159     5e-34
+gb|GQ505860.1|  Salmo salar clone BAC CHORI214-68O19 genomic s...  156     6e-33
+gb|EU621899.1|  Salmo salar clone 63I10 growth hormone 2 gene,...  156     6e-33
+gb|DQ246664.1|  Oncorhynchus mykiss SYPG1 (SYPG1), PHF1 (PHF1)...  156     6e-33
+gb|EU481821.1|  Salmo salar physical map contig 483, genomic s...  154     2e-32
+gb|EF467297.1|  Salmo salar clone 36P16 TCR-alpha/delta locus,...  154     2e-32
+gb|GQ505859.1|  Salmo salar clone BAC CHORI214-439H13 genomic ...  152     8e-32
+gb|EF467299.1|  Salmo salar clone 249L01 TCR-alpha/delta locus...  152     8e-32
+gb|EF427381.1|  Salmo salar clone BAC CHORI214-30C23, complete...  152     8e-32
+gb|EF427377.1|  Salmo salar clone BAC CH189M18, complete sequence  152     8e-32
+gb|EF441211.1|  Salmo salar clone BAC 868O01, complete sequence    152     8e-32
+gb|AY100012.1|  Oncorhynchus tshawytscha insulin-like growth f...  152     8e-32
+gb|HM159471.1|  Salmo salar clone BAC 217E24 Foxl2 pseudogene,...  150     3e-31
+ref|XM_014206394.1|  PREDICTED: Salmo salar piggyBac transposa...  147     4e-30
+gb|HM159472.1|  Salmo salar clone BAC 261D01 Foxl2-like protei...  147     4e-30
+gb|HM159469.1|  Salmo salar clone BAC 33H18 orphan nuclear rec...  147     4e-30
+gb|EU621901.1|  Oncorhynchus tshawytscha clone ChinookGH2 grow...  147     4e-30
+ref|XM_014156952.1|  PREDICTED: Salmo salar uncharacterized pr...  145     1e-29
+ref|XM_014156951.1|  PREDICTED: Salmo salar uncharacterized pr...  145     1e-29
+emb|HF931021.1|  Oncorhynchus mykiss IFNa3 gene for type I int...  145     1e-29
+gb|HM159473.1|  Salmo salar clone BAC 19C14 DOT1-like histone ...  145     1e-29
+gb|EU008541.1|  Salmo salar neurogranin, TIP41-like protein (T...  145     1e-29
+gb|EU221180.1|  Salmo salar clone 272P16 chaperonin gene, comp...  145     1e-29
+emb|AM489415.1|  Oncorhynchus mykiss IFN1 gene for type I inte...  145     1e-29
+gb|EF210363.1|  Salmo salar clone CH214-714P22 MHC Class I (Sa...  145     1e-29
+gb|EF427383.1|  Salmo salar clone BAC CHORI214-523M19, complet...  145     1e-29
+gb|EF467296.1|  Salmo salar clone 31E09 TCR-alpha/delta locus,...  143     5e-29
+gb|AF063216.1|  Oncorhynchus keta insulin-like growth factor I...  143     5e-29
+gb|KF845942.1|  Salmo salar clone BAC882E11 CRFB5b, CRFB5a, an...  141     2e-28
+
+ALIGNMENTS
+>gb|AC203446.12| Salmo salar BAC CH214-363E24 (Children's Hospital Oakland Research 
+Institute Atlantic Salmon BAC Library) complete sequence
+Length=218491
+
+ Score = 239 bits (129),  Expect = 6e-58
+ Identities = 433/567 (76%), Gaps = 71/567 (13%)
+ Strand=Plus/Plus
+
+Query  2512   ATTAGCATG-AGTTGTAAGTAACAAATAATTCCCATAAGACATAGA-ATATCTG--ATGG  2567
+              ||||||||| |||||||||||||||  ||    |||    |||||| |||||||  || |
+Sbjct  16503  ATTAGCATGAAGTTGTAAGTAACAA-GAA----CAT--TTCATAGACATATCTGATATTG  16555
+
+Query  2568   GCAG-AAGCTTAAAATTCTTGTTAATCTAACTACACTGTCCAATT--CAGGTAG--GTTG  2622
+              |||| |||||| |||||||||||||||||||| ||||||||||||  || ||||   || 
+Sbjct  16556  GCAGAAAGCTT-AAATTCTTGTTAATCTAACTGCACTGTCCAATTTACA-GTAGCTATTA  16613
+
+Query  2623   CAGTGAAAGAATGAC-TGCTATTGTTTGGGGAGTGTGGCACAAGTCCTGAACTTTTGTA-  2680
+              ||||||||||||  | |||||||||||| |||| ||| ||| |||  |||||||    | 
+Sbjct  16614  CAGTGAAAGAATACCATGCTATTGTTTGAGGAGAGTG-CAC-AGTTATGAACTTGAAAAG  16671
+
+Query  2681   TTAAT-ATAAACCATTAAGGCACATTTGGGCGATCTTGGACCCCCGGGGAATTTGAACAG  2739
+              ||| | |||||||| | ||||||||||||||  |||| ||    |    | |||||||||
+Sbjct  16672  TTATTAATAAACCAATTAGGCACATTTGGGCAGTCTT-GA--TAC-AACATTTTGAACAG  16727
+
+Query  2740   TTATGCAATGGTTCATTGACGGGATCAGTCGACACACTTTGCACATACACTCCATTGTAG  2799
+                | | ||||||||||||    |||||||| | | |||||| |||||||||  |   | |
+Sbjct  16728  AAACGTAATGGTTCATTG----GATCAGTCTA-AAACTTTGTACATACACT-GA---T-G  16777
+
+Query  2800   AAATCTAAATGGCCTGAGGTC----TTG-TGCTGGGCTGGAGAATAAT-CATTATGGCCT  2853
+                |||| | |||||  |  ||    |||   |||| || | ||||||| |||||| ||||
+Sbjct  16778  CCATCT-AGTGGCC-AAAATCTAAATTGCACCTGGACT-G-GAATAATACATTATTGCCT  16833
+
+Query  2854   TTCTC--GCAT-T-TCAAATG-GTACA---AA-A-AT-AAAGA-A-ATCG-ATTTTCTTT  2899
+              |||||  |||| |  ||| || || ||   || |  | ||| | | ||    ||||||||
+Sbjct  16834  TTCTCTTGCATCTCCCAACTGAGT-CATGTAACATTTAAAAAACACATGTTTTTTTCTTT  16892
+
+Query  2900   GTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACA-TTC  2957
+              || ||||| ||||||| |||| |  |||||| |||||||||||||||   |||||| |||
+Sbjct  16893  GT-ATTATCTTTTACCCGATCTAATGTGTTAAATTCTCCTACATTCA--TTTCACATTTC  16949
+
+Query  2958   CACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTTCAG  3015
+              |||||||||| ||||||||  ||||||||||||| |||||||||||||||||||||||||
+Sbjct  16950  CACAAACTTCAAAGTGTTTCCTTTCAAATGGTATCAAGAATATGCATATCCTTGCTTCAG  17009
+
+Query  3016   GTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              ||||||||||||| | | ||||| |||
+Sbjct  17010  GTCCTGAGCTACATGCAGTTAGA-TTT  17035
+
+
+ Score = 135 bits (73),  Expect = 8e-27
+ Identities = 158/196 (81%), Gaps = 17/196 (9%)
+ Strand=Plus/Minus
+
+Query  1453    TTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCTGAC  1508
+               |||||||| |  ||| | |||||||||||| | |||||||  || ||||| |||   |||
+Sbjct  106527  TTCCAACAGGACAACAACCCTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTCGGGAC  106468
+
+Query  1509    AAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACAC  1568
+               ||||||||||||||||||||||||||||| | ||| ||  | ||||||||||||||||| 
+Sbjct  106467  AAGTCTCTGAATGTCCTTGAGTGGCCCAGGCGGAGCCTGGACTTGAACCCGATCGAACAT  106408
+
+Query  1569    CTC-GGCGA---CTA-AAAGC-T-GTGCAGCA--A-ACTCCCCATCCAACCTGACA---C  1615
+               ||| || ||   ||| ||||  | ||||| |   | ||||||||||||||||||||   |
+Sbjct  106407  CTCTGGAGAGATCTAGAAAGAGTTGTGCATCTCGACACTCCCCATCCAACCTGACAGAGC  106348
+
+Query  1616    TTGAGAGGATCTGCAG  1631
+               ||||||||||||||||
+Sbjct  106347  TTGAGAGGATCTGCAG  106332
+
+
+>gb|EU621898.1| Salmo salar clone 11F04_73D15 interferon alpha 1-like gene, complete 
+sequence; growth hormone 1 gene, complete cds; and skeletal 
+muscle sodium channel alpha subunit-like, myosin alkali 
+light chain-like, and microtubule-associated protein Tau-like 
+genes, complete sequence
+Length=300107
+
+ Score = 204 bits (110),  Expect = 2e-47
+ Identities = 428/570 (75%), Gaps = 68/570 (12%)
+ Strand=Plus/Minus
+
+Query  2512    ATTAGCATGA-GTTGTAAGTAACAA-ATAATTCCCATAAGACATAGA-ATATCTG--ATG  2566
+               |||||||||| |||||||||||||| | |||| ||  | |||||||| |||||||  |||
+Sbjct  106574  ATTAGCATGACGTTGTAAGTAACAAGAAAATTTCCC-AGGACATAGACATATCTGATATG  106516
+
+Query  2567    GGCAG-AAGCTTAAAATTCTTGTTAATCTAACTACACTGTCCA-ATT-CAGGTAGGT--T  2621
+               ||||| |||||| |||||| | ||||| ||||| |||||||||  || || |||| |  |
+Sbjct  106515  GGCAGAAAGCTT-AAATTCATCTTAATTTAACTGCACTGTCCAGTTTACA-GTAGCTACT  106458
+
+Query  2622    GCAGTGAAAGAATGAC-TGCTATTGTTTGGGGAGTGTGGCACAAGTCCTGAACTTTTGTA  2680
+                |||||||| |||  | |  ||||||||| |||| ||| ||  |||  || ||||    |
+Sbjct  106457  ACAGTGAAAAAATACCATTATATTGTTTGAGGAGAGTG-CA-GAGTTATGTACTTGAAAA  106400
+
+Query  2681    T-TAA-TATAAACCATTAAGGCACATTTGGGC-GATCTTGGACCCCCGGGGAATTTGAAC  2737
+               | |||  |||||||| | |||||||||||||| || ||| ||    |    | |||||||
+Sbjct  106399  TATAACAATAAACCAATTAGGCACATTTGGGCAGA-CTT-GA--TAC-AACATTTTGAAC  106345
+
+Query  2738    AGTTATGCAATGGTTCATTGACGGGATCAGTCGACACACTTTGCACATACACTCCATTGT  2797
+               ||| |||||||| |||||||    | |||||| | | ||||||||| |||||| |    |
+Sbjct  106344  AGTAATGCAATGATTCATTG----GCTCAGTCTA-AAACTTTGCACTTACACTGC----T  106294
+
+Query  2798    AGAAATCTAAATGGCCTGAGGTC----TTGTG-CTGGGCTGGAGAATAAT-CATTATGGC  2851
+                   |||| | |||||  |  ||    ||||| ||   ||| ||  |||| |||   |||
+Sbjct  106293  -CCCATCT-AGTGGCC-AAAATCAAAATTGTGCCTAATCTGCAG--TAATACATGCAGGC  106239
+
+Query  2852    CTTTCTC--GCATTTC-AA-ATG-G--TACAAAAATAA-AGAAA--T-C--G--ATTTTC  2896
+               |||||||  ||||||| || ||| |   | ||||| || | |||  | |  |   |||||
+Sbjct  106238  CTTTCTCTTGCATTTCAAAGATGAGAAGAAAAAAAAAATATAAACCTGCATGTTTTTTTC  106179
+
+Query  2897    TTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACA-  2954
+               ||||| |||||  | ||||||||| |  ||||||||||| |||||||| | | |||||| 
+Sbjct  106178  TTTGT-ATTATCGTCTACCAGATCTAATGTGTTATATTCGCCTACATT-A-CTTTCACAT  106122
+
+Query  2955    TTCCACAAACTTCAA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTT  3012
+               ||||||||||| ||| || |||  ||||||||||||| ||||||||||||||||||||||
+Sbjct  106121  TTCCACAAACTCCAAAGTATTTCCTTTCAAATGGTATCAAGAATATGCATATCCTTGCTT  106062
+
+Query  3013    CAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               |||||||||||||||| | | ||||| |||
+Sbjct  106061  CAGGTCCTGAGCTACAGGCAGTTAGA-TTT  106033
+
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 129/150 (86%), Gaps = 9/150 (6%)
+ Strand=Plus/Minus
+
+Query  2897    TTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACAT  2955
+               ||||| ||| | |||||||||||| |  |||||||||||||||||||| |   |||||||
+Sbjct  161185  TTTGT-ATTGTCTTTTACCAGATCTAATGTGTTATATTCTCCTACATTAAT--TTCACAT  161129
+
+Query  2956    -TCCACAAACTTCAA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTT  3012
+                || ||||||||||| ||||||  ||||||||||||| || |||||||||||||||||||
+Sbjct  161128  CTCAACAAACTTCAAAGTGTTTCCTTTCAAATGGTATCAATAATATGCATATCCTTGCTT  161069
+
+Query  3013    CAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               |||||||||||||||| | | ||||| |||
+Sbjct  161068  CAGGTCCTGAGCTACAGGCAGTTAGA-TTT  161040
+
+
+>gb|EU221178.1| Salmo salar clone 257A09 TCR gamma locus region
+Length=215529
+
+ Score = 204 bits (110),  Expect = 2e-47
+ Identities = 428/570 (75%), Gaps = 67/570 (12%)
+ Strand=Plus/Minus
+
+Query  2512   ATTAGCATGA-GTTGTAAGTAACAA--ATAATTCCCATAAGACATAGA-ATATCTG--AT  2565
+              |||||||||| ||||||||||||||  ||| || ||  | |||||||| | |||||  ||
+Sbjct  31955  ATTAGCATGAGGTTGTAAGTAACAAGAATATTTTCC--AGGACATAGACAAATCTGATAT  31898
+
+Query  2566   GGGCAG-AAGCTTAAAATTCTTGTTAATCTAACTACACTGTCCAATT--CAGGTAG--GT  2620
+               ||||| |||||| |||||||||||||||||||| || |||||||||  || ||||   |
+Sbjct  31897  TGGCAGAAAGCTT-AAATTCTTGTTAATCTAACTGCATTGTCCAATTTACA-GTAGCTAT  31840
+
+Query  2621   TGCAGTGAAAGAATGAC-TGCTATTGTTTGGGGAGTGTGGCACAAGTCCTGAAC-TTTTG  2678
+              | |||||||| |||  | |||||||||||| |||| ||| |||  ||  ||||| |    
+Sbjct  31839  TACAGTGAAATAATACCATGCTATTGTTTGAGGAGAGTG-CAC-GGTTTTGAACATGAAA  31782
+
+Query  2679   TATTAAT-ATAAACCATTAAGGCACATTTGGGCGATCTTGGACCCCCGGGGAATTTGAAC  2737
+               ||||   |||||| | | |||||||||||  |  |||| ||    |    | |||||||
+Sbjct  31781  AATTATCAATAAACAAATTAGGCACATTTGTTCAGTCTT-GA--TAC-AACATTTTGAAC  31726
+
+Query  2738   AGTTATGCAATGGTTCATTGACGGGATCAGTCGACACACTTTGCACATACACTCCATTGT  2797
+              ||  ||||||||||||||||     ||||||| | | ||||||||||||| || | || |
+Sbjct  31725  AGAAATGCAATGGTTCATTG----TATCAGTCTA-AAACTTTGCACATACGCTGC-TTCT  31672
+
+Query  2798   AGAAATCTAAATGGCC--TGAGGT---CTTGTGCTGGGCTGGAGAATAAT-CATTATGGC  2851
+                  |||| | |||||    |  |   |||   ||||||||||  ||||| |||||||||
+Sbjct  31671  ----ATCT-AGTGGCCAAAAATCTAAACTTCACCTGGGCTGGA--ATAATACATTATGGC  31619
+
+Query  2852   CTTTCTC--GCATTTC--A-A--ATGGTACAA--A----AATAAA--GAAATCGATTTTC  2896
+              |||||||  |||||||  | |  |||||||||  |    | ||||  |   |   |||||
+Sbjct  31618  CTTTCTCTTGCATTTCAAAGATGATGGTACAATTATTTTATTAAACGGTTGTTTTTTTTC  31559
+
+Query  2897   TTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACAT  2955
+              ||||| ||||| |||||||||||| |  ||||||||||||||||||||| |  |||| ||
+Sbjct  31558  TTTGT-ATTATCTTTTACCAGATCCAATGTGTTATATTCTCCTACATTC-CT-TTCATAT  31502
+
+Query  2956   -TCCACAAACTTCAA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTT  3012
+               ||||||| |||||| ||||||   || ||||||||  ||  ||||||||||||||||||
+Sbjct  31501  GTCCACAATCTTCAAAGTGTTTCCCTTTAAATGGTACCAAATATATGCATATCCTTGCTT  31442
+
+Query  3013   CAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              |||||||||||||||| | | ||||| |||
+Sbjct  31441  CAGGTCCTGAGCTACAGGCAGTTAGA-TTT  31413
+
+
+ Score = 195 bits (105),  Expect = 1e-44
+ Identities = 188/224 (84%), Gaps = 22/224 (10%)
+ Strand=Plus/Plus
+
+Query  2836    GAATAAT-CATTATGGCCTTTCTC--GCATTTC-AA-ATGGT--ACAAAA-ATAAAG-AA  2886
+               ||||||| || |||||||||||||  ||||||| || |||||  | |||| | |||| ||
+Sbjct  104963  GAATAATACACTATGGCCTTTCTCTTGCATTTCAAAGATGGTAAAAAAAACAAAAAGAAA  105022
+
+Query  2887    A-T--CG-ATTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACA  2941
+               | |   |  |||||||||| ||||| |||||||||||| |  |||||||||||| |||||
+Sbjct  105023  ATTAATGTTTTTTCTTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCTTCTACA  105081
+
+Query  2942    TTCACCCTTCACA-TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATAT  2998
+               ||||   |||||| ||||||||||||| ||||||||  ||||||||||||| ||||||||
+Sbjct  105082  TTCA--GTTCACATTTCCACAAACTTCAAAGTGTTTCCTTTCAAATGGTATCAAGAATAT  105139
+
+Query  2999    GCATATCCTTGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               |||||||||||||||||||||||||||||| | | ||||| |||
+Sbjct  105140  GCATATCCTTGCTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  105182
+
+
+>gb|EF467298.1| Salmo salar clone 39N03 TCR-alpha/delta locus, genomic sequence
+Length=189019
+
+ Score = 204 bits (110),  Expect = 2e-47
+ Identities = 435/577 (75%), Gaps = 81/577 (14%)
+ Strand=Plus/Plus
+
+Query  2512   ATTAGCATGA-GTTGTAAGTAACAA-ATAATTCCCATAAGACATAGA-ATATC-T-GATG  2566
+              ||||||||||  |||||||||||||   |||| ||  |  ||||||| ||||| |  |||
+Sbjct  84316  ATTAGCATGACATTGTAAGTAACAAGGAAATTTCCC-ACTACATAGACATATCTTATATG  84374
+
+Query  2567   GGCAG-AAGCTTAAAATTCTTGTTAATCTAACTACACTGTCCAATT--CAGGTAGG--TT  2621
+              ||||| |||||| |||||||||||||||||||| ||||||||||||  || |||||  ||
+Sbjct  84375  GGCAGAAAGCTT-AAATTCTTGTTAATCTAACTGCACTGTCCAATTTTCA-GTAGGTATT  84432
+
+Query  2622   GCAGTGAAAGAATGA-CTGCTATTGTTTGGGGAGTGTGGCACAAGTCCTGAACTTTTGTA  2680
+               ||||||||  ||   || |||| ||||| |||| ||| ||| |||  || ||||    |
+Sbjct  84433  ACAGTGAAAACATACCCTTCTATAGTTTGAGGAGAGTG-CAC-AGTTATGTACTTGAAAA  84490
+
+Query  2681   T-TA-ATATAAACCATTAAGGCACATTTGGGC-GATCTTGGACCCCCGGGGAATTTGAAC  2737
+              | || ||||  |||| | |||||||||||||| || ||| ||  | |    | |||||||
+Sbjct  84491  TGTATATATTGACCAATTAGGCACATTTGGGCAGA-CTT-GA--CAC-AACAGTTTGAAC  84545
+
+Query  2738   AGTTATGCAATGGTTCATTGACGGGATCAGTCGACACACTTTGCACATACACT----CCA  2793
+              ||  ||||||| ||||||||    |||||||| | | ||||| || |||||||    |||
+Sbjct  84546  AGAAATGCAATAGTTCATTG----GATCAGTCTA-AAACTTTACAAATACACTGCTGCCA  84600
+
+Query  2794   T-T-GTAG---AAATCTAAA-TG-GCCTGAG-GTCTTGTGCTGGGCTGGAGAATAATCAT  2845
+              | | || |   |||| |||| || |||| || ||| | || |   |   ||    || | 
+Sbjct  84601  TCTAGTGGCCAAAATATAAATTGTGCCT-AGAGTCCTATG-T---C---AG----AT-A-  84646
+
+Query  2846   TATGGCCTTTCTC--GCATTTC-AA-A---TGGTAC--AAAAATA-AAGAAATCG-A---  2891
+               ||| ||||||||  ||||||| || |   ||| ||  ||||||| || ||| || |   
+Sbjct  84647  -ATGTCCTTTCTCTTGCATTTCAAAGATGTTGGAACAAAAAAATACAAAAAAACGCATGT  84705
+
+Query  2892   --TTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCC  2948
+                |||||||||| ||||| |||||||||||| |  ||||||||||| |||| ||| |   
+Sbjct  84706  TTTTTTCTTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCGCCTATATT-A-AT  84762
+
+Query  2949   TTCACA-TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATC  3005
+              |||||| ||||||||||||| || |||||| ||||||||||||| || ||||||||||||
+Sbjct  84763  TTCACATTTCCACAAACTTCAAAATGTTTACTTTCAAATGGTATCAATAATATGCATATC  84822
+
+Query  3006   CTTGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              ||||||||||||||||||||||| | | ||||| |||
+Sbjct  84823  CTTGCTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  84858
+
+
+>gb|EF467295.1| Salmo salar clone 15J19 TCR-alpha/delta locus, genomic sequence
+Length=213804
+
+ Score = 204 bits (110),  Expect = 2e-47
+ Identities = 435/577 (75%), Gaps = 81/577 (14%)
+ Strand=Plus/Plus
+
+Query  2512    ATTAGCATGA-GTTGTAAGTAACAA-ATAATTCCCATAAGACATAGA-ATATC-T-GATG  2566
+               ||||||||||  |||||||||||||   |||| ||  |  ||||||| ||||| |  |||
+Sbjct  200263  ATTAGCATGACATTGTAAGTAACAAGGAAATTTCCC-ACTACATAGACATATCTTATATG  200321
+
+Query  2567    GGCAG-AAGCTTAAAATTCTTGTTAATCTAACTACACTGTCCAATT--CAGGTAGG--TT  2621
+               ||||| |||||| |||||||||||||||||||| ||||||||||||  || |||||  ||
+Sbjct  200322  GGCAGAAAGCTT-AAATTCTTGTTAATCTAACTGCACTGTCCAATTTTCA-GTAGGTATT  200379
+
+Query  2622    GCAGTGAAAGAATGA-CTGCTATTGTTTGGGGAGTGTGGCACAAGTCCTGAACTTTTGTA  2680
+                ||||||||  ||   || |||| ||||| |||| ||| ||| |||  || ||||    |
+Sbjct  200380  ACAGTGAAAACATACCCTTCTATAGTTTGAGGAGAGTG-CAC-AGTTATGTACTTGAAAA  200437
+
+Query  2681    T-TA-ATATAAACCATTAAGGCACATTTGGGC-GATCTTGGACCCCCGGGGAATTTGAAC  2737
+               | || ||||  |||| | |||||||||||||| || ||| ||  | |    | |||||||
+Sbjct  200438  TGTATATATTGACCAATTAGGCACATTTGGGCAGA-CTT-GA--CAC-AACAGTTTGAAC  200492
+
+Query  2738    AGTTATGCAATGGTTCATTGACGGGATCAGTCGACACACTTTGCACATACACT----CCA  2793
+               ||  ||||||| ||||||||    |||||||| | | ||||| || |||||||    |||
+Sbjct  200493  AGAAATGCAATAGTTCATTG----GATCAGTCTA-AAACTTTACAAATACACTGCTGCCA  200547
+
+Query  2794    T-T-GTAG---AAATCTAAA-TG-GCCTGAG-GTCTTGTGCTGGGCTGGAGAATAATCAT  2845
+               | | || |   |||| |||| || |||| || ||| | || |   |   ||    || | 
+Sbjct  200548  TCTAGTGGCCAAAATATAAATTGTGCCT-AGAGTCCTATG-T---C---AG----AT-A-  200593
+
+Query  2846    TATGGCCTTTCTC--GCATTTC-AA-A---TGGTAC--AAAAATA-AAGAAATCG-A---  2891
+                ||| ||||||||  ||||||| || |   ||| ||  ||||||| || ||| || |   
+Sbjct  200594  -ATGTCCTTTCTCTTGCATTTCAAAGATGTTGGAACAAAAAAATACAAAAAAACGCATGT  200652
+
+Query  2892    --TTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCC  2948
+                 |||||||||| ||||| |||||||||||| |  ||||||||||| |||| ||| |   
+Sbjct  200653  TTTTTTCTTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCGCCTATATT-A-AT  200709
+
+Query  2949    TTCACA-TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATC  3005
+               |||||| ||||||||||||| || |||||| ||||||||||||| || ||||||||||||
+Sbjct  200710  TTCACATTTCCACAAACTTCAAAATGTTTACTTTCAAATGGTATCAATAATATGCATATC  200769
+
+Query  3006    CTTGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               ||||||||||||||||||||||| | | ||||| |||
+Sbjct  200770  CTTGCTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  200805
+
+
+ Score = 78.7 bits (42),  Expect = 1e-09
+ Identities = 160/211 (76%), Gaps = 32/211 (15%)
+ Strand=Plus/Plus
+
+Query  4428  ATACTGATTTCCCTCAGATGAAATCTAACTTAAATTATACCAACATTTTCTGACATCCG-  4486
+             ||||| ||||||||||  | ||||  || | || |||||  || ||||| |||||| || 
+Sbjct  5585  ATACTTATTTCCCTCA-TTAAAATGCAAATCAATTTATA--AA-ATTTT-TGACATGCGT  5639
+
+Query  4487  TTTTCTACATGGTTTTTGTTGTTATTCTGTCTC--ACTGTTTGACATCAGAC--AGCATT  4542
+             ||||||  ||  |||||||||||||||||||||  |||| || | || | ||  | ||||
+Sbjct  5640  TTTTCTGGAT-ATTTTTGTTGTTATTCTGTCTCTCACTG-TTCAAAT-AAACATACCATT  5696
+
+Query  4543  -AGGTTA-A-ACGTGA---TTTC-TT-T--GT---CGAACCGGTAC-AAATCAGCAGAGG  4588
+              |  ||| | || |||   |||| || |  ||   | ||||  ||| ||||||||  |||
+Sbjct  5697  AAAATTATAGAC-TGATCCTTTCTTTATCAGTGGGCAAACC--TACAAAATCAGC--AGG  5751
+
+Query  4589  GGATCAAATACTTTTTCCCCCCACTGTATCA  4619
+             |||||||||||||||||||||||||||||||
+Sbjct  5752  GGATCAAATACTTTTTCCCCCCACTGTATCA  5782
+
+
+>gb|BT058788.1| Salmo salar clone ssal-rgf-503-053 Ras-related C3 botulinum toxin 
+substrate 2 precursor putative mRNA, complete cds
+Length=3387
+
+ Score = 187 bits (101),  Expect = 2e-42
+ Identities = 233/292 (80%), Gaps = 27/292 (9%)
+ Strand=Plus/Plus
+
+Query  2116  AGAACAGCCTTAGATTCGTCAAGAGGGCATGGAC-CGACAA-ATGTCGAAAATGTTCCAC  2173
+             ||||||| || | ||||||   | |||||||||| | ||||  ||||| ||  |||||||
+Sbjct  1481  AGAACAGTCTCA-ATTCGT--TG-GGGCATGGACTCTACAAGGTGTCGGAAGCGTTCCAC  1536
+
+Query  2174  AGGAATGCTGGCCCATGTTGACTACAATGCTT-CCACAGTTGTGTCAATGCCTGGAGCGA  2232
+             ||||||||||||||||||||||| |||||||| |||||||| |||||| |  |||   ||
+Sbjct  1537  AGGAATGCTGGCCCATGTTGACTCCAATGCTTCCCACAGTTTTGTCAA-G-TTGGCTGGA  1594
+
+Query  2233  TGTCTGTTTGATACTTAGGACCATTCTTGATACA---G-GAAATTGTTTGGCCTAGTGAA  2288
+             | ||  || | |   | |||||||||||||||||   | |||||||||  | |  |||||
+Sbjct  1595  TATCCTTTGGGT-GGT-GGACCATTCTTGATACACATGAGAAATTGTTGAG-C--GTGAA  1649
+
+Query  2289  AATACCCAGAATCATTGCA-TTCTTCACAC-AACCGGTGTGCCTGGCACCTAC--CCATA  2344
+             || |||||| | | ||||| ||||| |||| |||||||||||||||||||| |  |||||
+Sbjct  1650  AA-ACCCAGCAGCGTTGCAGTTCTTGACACAAACCGGTGTGCCTGGCACCTGCTACCATA  1708
+
+Query  2345  CCCCCGTTCAAAGGCACTTAAATGTTT-GTCTT--CCATTCACACTCTGAAT  2393
+              |||||||||||||| |||| || ||| |||||  |||||||| ||||||||
+Sbjct  1709  -CCCCGTTCAAAGGCGCTTACATTTTTTGTCTTGCCCATTCACCCTCTGAAT  1759
+
+
+>gb|BT045348.1| Salmo salar clone ssal-rgf-518-373 Ras-related C3 botulinum toxin 
+substrate 2 precursor putative mRNA, complete cds
+Length=2653
+
+ Score = 187 bits (101),  Expect = 2e-42
+ Identities = 233/292 (80%), Gaps = 27/292 (9%)
+ Strand=Plus/Plus
+
+Query  2116  AGAACAGCCTTAGATTCGTCAAGAGGGCATGGAC-CGACAA-ATGTCGAAAATGTTCCAC  2173
+             ||||||| || | ||||||   | |||||||||| | ||||  ||||| ||  |||||||
+Sbjct  1481  AGAACAGTCTCA-ATTCGT--TG-GGGCATGGACTCTACAAGGTGTCGGAAGCGTTCCAC  1536
+
+Query  2174  AGGAATGCTGGCCCATGTTGACTACAATGCTT-CCACAGTTGTGTCAATGCCTGGAGCGA  2232
+             ||||||||||||||||||||||| |||||||| |||||||| |||||| |  |||   ||
+Sbjct  1537  AGGAATGCTGGCCCATGTTGACTCCAATGCTTCCCACAGTTTTGTCAA-G-TTGGCTGGA  1594
+
+Query  2233  TGTCTGTTTGATACTTAGGACCATTCTTGATACA---G-GAAATTGTTTGGCCTAGTGAA  2288
+             | ||  || | |   | |||||||||||||||||   | |||||||||  | |  |||||
+Sbjct  1595  TATCCTTTGGGT-GGT-GGACCATTCTTGATACACATGAGAAATTGTTGAG-C--GTGAA  1649
+
+Query  2289  AATACCCAGAATCATTGCA-TTCTTCACAC-AACCGGTGTGCCTGGCACCTAC--CCATA  2344
+             || |||||| | | ||||| ||||| |||| |||||||||||||||||||| |  |||||
+Sbjct  1650  AA-ACCCAGCAGCGTTGCAGTTCTTGACACAAACCGGTGTGCCTGGCACCTGCTACCATA  1708
+
+Query  2345  CCCCCGTTCAAAGGCACTTAAATGTTT-GTCTT--CCATTCACACTCTGAAT  2393
+              |||||||||||||| |||| || ||| |||||  |||||||| ||||||||
+Sbjct  1709  -CCCCGTTCAAAGGCGCTTACATTTTTTGTCTTGCCCATTCACCCTCTGAAT  1759
+
+
+>gb|EF427379.1| Salmo salar clone BAC CHORI214-8I14, complete sequence
+Length=188042
+
+ Score = 182 bits (98),  Expect = 1e-40
+ Identities = 171/204 (84%), Gaps = 14/204 (7%)
+ Strand=Plus/Minus
+
+Query  2847   ATGGCCTTTCTC--GCATTTCAAATGGTACAA-AAATAAAGAAATCG-ATTTTCTTTGTG  2902
+              ||||||||||||  |||||||||| | || || ||| ||||  ||    |||||||||| 
+Sbjct  10661  ATGGCCTTTCTCTTGCATTTCAAA-GATAGAACAAAAAAAGGCATGTTTTTTTCTTTGT-  10604
+
+Query  2903   ATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACATT-CCAC  2960
+              ||||| |||||||||||| |  ||||||||||||||||||||||   |||||||| ||||
+Sbjct  10603  ATTATATTTTACCAGATCTATTGTGTTATATTCTCCTACATTCAT--TTCACATTTCCAC  10546
+
+Query  2961   AAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTTCAGGTC  3018
+              ||||||| ||||||||  | ||||||  ||| ||||| ||||||||||||||||||||||
+Sbjct  10545  AAACTTCAAAGTGTTTCCTATCAAATTATATCAAGAACATGCATATCCTTGCTTCAGGTC  10486
+
+Query  3019   CTGAGCTACAAGAA-TTAGAGTTT  3041
+              |||||||||||| | ||||| |||
+Sbjct  10485  CTGAGCTACAAGCAGTTAGA-TTT  10463
+
+
+ Score = 126 bits (68),  Expect = 5e-24
+ Identities = 148/185 (80%), Gaps = 12/185 (6%)
+ Strand=Plus/Minus
+
+Query  1468   CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTCTG-ACAAGTCTCTGAATGTCCTT  1526
+              ||||| | |||||| |||| ||  || |  ||  ||| | ||||||||||||||||||||
+Sbjct  58951  CCTAACCCCACAACCAAGAGAACGCAGGTTTGGCTTCGGAACAAGTCTCTGAATGTCCTT  58892
+
+Query  1527   GAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACACCTC-GGCGA--C-T--AA  1580
+              ||||||||||||||||| |   | ||||||||||||||||| ||| || ||  | |  ||
+Sbjct  58891  GAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAACATCTCTGGAGAGACCTGTAA  58832
+
+Query  1581   A-AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---CTTGAGAGGATCTGCAGAAGA  1635
+              | || |||||||  | ||||||||||||||||||||   ||| ||||||||||||||  |
+Sbjct  58831  ATAGATGTGCAGTGACACTCCCCATCCAACCTGACAGAGCTTTAGAGGATCTGCAGAGAA  58772
+
+Query  1636   GAATG  1640
+              |||||
+Sbjct  58771  GAATG  58767
+
+
+>ref|XM_014183179.1| PREDICTED: Salmo salar piggyBac transposable element-derived 
+protein 4-like (LOC106591908), mRNA
+Length=3185
+
+ Score = 172 bits (93),  Expect = 6e-38
+ Identities = 179/217 (82%), Gaps = 19/217 (9%)
+ Strand=Plus/Plus
+
+Query  2826  CTGGGCTGGAGAATAAT-CATTATGGCCTTTCTC--GCATTTC--A-A--ATGGTAC--A  2875
+             ||||||| | ||||||| || |||||||||||||   ||||||  | |  |||||||  |
+Sbjct  2530  CTGGGCT-G-GAATAATACAATATGGCCTTTCTCTTACATTTCAAAGATGATGGTACAAA  2587
+
+Query  2876  AAAATAAAGAAATCGATTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTC  2934
+             |||||| | ||||  ||||| ||||| ||||| |||||||||||| |  ||||| |||||
+Sbjct  2588  AAAATACAAAAATGTATTTT-TTTGT-ATTATCTTTTACCAGATCTAATGTGTTTTATTC  2645
+
+Query  2935  TCCTACATTCACCCTTCACA-TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTA-TA  2991
+             ||| |||||| || |||||| ||||| ||||||| ||||||||  ||||||||  ||  |
+Sbjct  2646  TCCAACATTC-CCTTTCACATTTCCATAAACTTCAAAGTGTTTCCTTTCAAATTCTACCA  2704
+
+Query  2992  AGAATATGCATATCCTTGCTTCAGGTCCTGAGCTACA  3028
+             |||||| ||||||||||||||||||||||||||||||
+Sbjct  2705  AGAATACGCATATCCTTGCTTCAGGTCCTGAGCTACA  2741
+
+
+>ref|XM_014182831.1| PREDICTED: Salmo salar uncharacterized LOC106591623 (LOC106591623), 
+mRNA
+Length=1743
+
+ Score = 172 bits (93),  Expect = 6e-38
+ Identities = 180/218 (83%), Gaps = 21/218 (10%)
+ Strand=Plus/Plus
+
+Query  2826  CTGGGCTGGAGAATAAT-CATTATGGCCTTTCTC--GCATTTC--A-A--ATGGTAC--A  2875
+             ||||||| | ||||||| || |||||||||||||   ||||||  | |  |||||||  |
+Sbjct  1154  CTGGGCT-G-GAATAATACAATATGGCCTTTCTCTTACATTTCAAAGATGATGGTACAAA  1211
+
+Query  2876  AAAATAAAGAAATCG-ATTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATT  2933
+             |||||| | ||| || ||||| ||||| ||||| |||||||||||| |  ||||| ||||
+Sbjct  1212  AAAATACAAAAA-CGTATTTT-TTTGT-ATTATCTTTTACCAGATCTAATGTGTTTTATT  1268
+
+Query  2934  CTCCTACATTCACCCTTCACA-TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTA-T  2990
+             |||| |||||| || |||||| ||||| ||||||| ||||||||  ||||||||  ||  
+Sbjct  1269  CTCCAACATTC-CCTTTCACATTTCCATAAACTTCAAAGTGTTTCCTTTCAAATTCTACC  1327
+
+Query  2991  AAGAATATGCATATCCTTGCTTCAGGTCCTGAGCTACA  3028
+             ||||||| ||||||||||||||||||||||||||||||
+Sbjct  1328  AAGAATACGCATATCCTTGCTTCAGGTCCTGAGCTACA  1365
+
+
+>ref|XM_014167680.1| PREDICTED: Salmo salar zinc finger and SCAN domain-containing 
+protein 12-like (LOC106583470), mRNA
+Length=1947
+
+ Score = 172 bits (93),  Expect = 6e-38
+ Identities = 136/155 (88%), Gaps = 9/155 (6%)
+ Strand=Plus/Minus
+
+Query  2892  TTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTT  2950
+             |||||||||| ||||| |||||||||||| |  |||||| |||||||||||||||   ||
+Sbjct  1902  TTTTCTTTGT-ATTATCTTTTACCAGATCTAATGTGTTACATTCTCCTACATTCA--TTT  1846
+
+Query  2951  CACA-TTCCACAAACTTCAA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCT  3007
+             |||| ||||||||||||||| ||||||  ||||||||||||| || ||||||||||||||
+Sbjct  1845  CACATTTCCACAAACTTCAAAGTGTTTTCTTTCAAATGGTATCAAAAATATGCATATCCT  1786
+
+Query  3008  TGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+             ||||||||||||||||||| ||| | ||||| |||
+Sbjct  1785  TGCTTCAGGTCCTGAGCTATAAGCAGTTAGA-TTT  1752
+
+
+>gb|GU129139.1| Salmo salar IgH locus A genomic sequence
+Length=931200
+
+ Score = 167 bits (90),  Expect = 3e-36
+ Identities = 135/155 (87%), Gaps = 9/155 (6%)
+ Strand=Plus/Minus
+
+Query  2892    TTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTT  2950
+               |||| ||||| ||||| |||||||||||| |  |||||||||||||||||||| |   ||
+Sbjct  728194  TTTTGTTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCTCCTACATTGAT--TT  728138
+
+Query  2951    CACATT-CCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCT  3007
+               |||||| |||||||| || |||||||| |||||||||||||  |||||||||||||||||
+Sbjct  728137  CACATTTCCACAAACGTCAAAGTGTTTCTTTTCAAATGGTACCAAGAATATGCATATCCT  728078
+
+Query  3008    TGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               ||||||||||||||||||||| | | ||||| |||
+Sbjct  728077  TGCTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  728044
+
+
+ Score = 117 bits (63),  Expect = 3e-21
+ Identities = 119/144 (83%), Gaps = 11/144 (8%)
+ Strand=Plus/Minus
+
+Query  1508   CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACA  1567
+              |||||||||||||||||||||||||||||||||||| |   | |||||||||||| ||||
+Sbjct  35269  CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCTAACA  35210
+
+Query  1568   CCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---CT  1616
+               ||| || ||  | | |||  ||||||  |||||| ||||||||||||| |||||   ||
+Sbjct  35209  TCTCTGGAGATACCTGAAAATAGCTGTTTAGCAAAGCTCCCCATCCAACTTGACAGAGCT  35150
+
+Query  1617   TGAGAGGATCTGCAGAAGAGAATG  1640
+              |||||| |||||||||  ||||||
+Sbjct  35149  TGAGAGCATCTGCAGAGAAGAATG  35126
+
+
+ Score = 104 bits (56),  Expect = 2e-17
+ Identities = 146/187 (78%), Gaps = 16/187 (9%)
+ Strand=Plus/Minus
+
+Query  1468    CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCTGACAAGTCTCTGAATGTCCTT  1526
+               ||||||| |||| | ||||||| ||| ||||| |||   |||||||||||||||||||||
+Sbjct  534393  CCTAAGCTCACAGCCAAGACAACTCAGGAGTGGCTTCGGGACAAGTCTCTGAATGTCCTT  534334
+
+Query  1527    GAGTGGCCCAGCCAGAGT--CTACAATTGAACCCGATCGAACACCTC-GGC--GA-CT-A  1579
+               |||||||||||||||||   ||  | |||||||||||| |||| ||| ||   || || |
+Sbjct  534333  GAGTGGCCCAGCCAGAGAGCCTGGACTTGAACCCGATCTAACATCTCTGGATAGATCTGA  534274
+
+Query  1580    AA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---CTTGAGAGGATCTGCAGAA  1633
+               ||  || ||| ||||||  ||||||  | |||||| ||   ||| |||  ||||||||| 
+Sbjct  534273  AAATAGATGTACAGCAACGCTCCCCGACTAACCTGGCAGAGCTTCAGA--ATCTGCAGAG  534216
+
+Query  1634    GAGAATG  1640
+                ||||||
+Sbjct  534215  AAGAATG  534209
+
+
+>gb|EU621900.1| Oncorhynchus tshawytscha clone ChinookGH1 interferon alpha 1-like 
+gene, complete sequence; growth hormone 1 gene, complete 
+cds; and skeletal muscle sodium channel alpha subunit-like 
+and myosin alkali light chain-like genes, complete sequence
+Length=170905
+
+ Score = 167 bits (90),  Expect = 3e-36
+ Identities = 124/139 (89%), Gaps = 7/139 (5%)
+ Strand=Plus/Plus
+
+Query  2892   TTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTT  2950
+              |||||||||| |  || |||||||||||| |  |||||||||||||||||||| ||  ||
+Sbjct  73290  TTTTCTTTGTTA-CATCTTTTACCAGATCTAATGTGTTATATTCTCCTACATT-ACT-TT  73346
+
+Query  2951   CACA-TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCT  3007
+              |||| ||||||||||||| ||||||||  ||||||||||||| |||||||||||||||||
+Sbjct  73347  CACATTTCCACAAACTTCAAAGTGTTTCCTTTCAAATGGTATCAAGAATATGCATATCCT  73406
+
+Query  3008   TGCTTCAGGTCCTGAGCTA  3026
+              |||||||||||||||||||
+Sbjct  73407  TGCTTCAGGTCCTGAGCTA  73425
+
+
+ Score = 141 bits (76),  Expect = 2e-28
+ Identities = 132/157 (84%), Gaps = 11/157 (7%)
+ Strand=Plus/Minus
+
+Query  2892    TTTTCTTTG-TG-ATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCC  2948
+               |||| |||| || ||| | |||||||||||| |  ||||| |||||||||||||| |   
+Sbjct  117693  TTTT-TTTGTTGTATTGTCTTTTACCAGATCTAATGTGTTGTATTCTCCTACATT-A-AT  117637
+
+Query  2949    TTCACA-TTCCACAAACTTCAA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATC  3005
+               |||||| |||||||||||||||  |||||  |||||||||| || || ||||||||||||
+Sbjct  117636  TTCACATTTCCACAAACTTCAAACTGTTTCCTTTCAAATGGGATCAATAATATGCATATC  117577
+
+Query  3006    CTTGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               ||||||||||||||||||||||| | | ||||| |||
+Sbjct  117576  CTTGCTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  117541
+
+
+ Score = 84.2 bits (45),  Expect = 3e-11
+ Identities = 79/95 (83%), Gaps = 4/95 (4%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||| |  || || ||||| |||||| | ||| |||  || |||||  |||  
+Sbjct  92170  ACCTTCCAACAGGACAATGACCCTAAACACACAGCGAAGGCAACGCAGGAGTGGGTTTGG  92111
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCA  1540
+              |||||||||||||||||||||||||||||||||||
+Sbjct  92110  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCA  92076
+
+
+>gb|EU221177.1| Salmo salar clone 242N16 formin-binding protein 1 gene, partial 
+sequence and TCR gamma locus region
+Length=229775
+
+ Score = 167 bits (90),  Expect = 3e-36
+ Identities = 170/206 (83%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||| |  ||| | |||||||||||| | |||||||  || ||||| ||||  
+Sbjct  33735  ACCTTCCAACAGGACAACAACCCTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTTGG  33676
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              ||||||||||||||||||||||||||||||| |||||| |   | |||||||| ||||||
+Sbjct  33675  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAACCAGAGCCCGGACTTGAACCCCATCGAA  33616
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+              || ||| || ||  | | |||  ||||||||||| || |||||||||||||||||||   
+Sbjct  33615  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCGAAGCTCCCCATCCAACCTGACAGAG  33556
+
+Query  1615   CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||||||||||||||  ||||||
+Sbjct  33555  CTTGAGAGGATCTGCAGAGAAGAATG  33530
+
+
+ Score = 156 bits (84),  Expect = 6e-33
+ Identities = 168/206 (82%), Gaps = 15/206 (7%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAAC-AG-TAACGAC-CTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+               ||||||||||  |  |||||| ||||||||||| | |||||||| || ||||| ||||  
+Sbjct  111573  ACCTTCCAACGGGACAACGACTCTAAGCACACAGCCAAGACAATGCAGGAGTGGTTTCAG  111632
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | |||||||| ||||||
+Sbjct  111633  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCCATCGAA  111692
+
+Query  1566    CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+               || ||| || ||  | | |||  |||| ||||||||  ||||| ||||||| |||||   
+Sbjct  111693  CATCTCTGGAGAGACCTGAAAATAGCTTTGCAGCAACGCTCCCTATCCAACTTGACAGAG  111752
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               |||||||||||| |||||  ||||||
+Sbjct  111753  CTTGAGAGGATCCGCAGAGAAGAATG  111778
+
+
+ Score = 71.3 bits (38),  Expect = 2e-07
+ Identities = 127/166 (77%), Gaps = 22/166 (13%)
+ Strand=Plus/Minus
+
+Query  4469    AACATTTTCTGACATCCG-TTTTCTACATGGTTTTTGTTGTTATTCTGTCTC--ACTGTT  4525
+               |||||||| | ||||  | ||||||  ||  |||||||||||||||||||||  |||| |
+Sbjct  161231  AACATTTT-TTACATGTGTTTTTCTGGAT-TTTTTTGTTGTTATTCTGTCTCTCACTG-T  161175
+
+Query  4526    TGACATCAGAC-AGCATT-AGGTTA-A-AC-G-TGATTTCTTTGTC-----G-AACCGGT  4573
+               | | || |  | | |||| |  ||| | || | | |||||||||||     | || | ||
+Sbjct  161174  TCAAATAAACCTACCATTAAAATTATAGACTGATCATTTCTTTGTCAGTGGGCAAAC-GT  161116
+
+Query  4574    A-CAAATCAGCAGAGGGGATCAAATACTTTTTCCCCCCACTGTATC  4618
+               |  ||||||||  |||||||||||||||||||||||||||||||||
+Sbjct  161115  AGAAAATCAGC--AGGGGATCAAATACTTTTTCCCCCCACTGTATC  161072
+
+
+>gb|DQ156149.1| Salmo salar clone BAC S0085O16, partial sequence
+Length=219899
+
+ Score = 167 bits (90),  Expect = 3e-36
+ Identities = 170/206 (83%), Gaps = 15/206 (7%)
+ Strand=Plus/Plus
+
+Query  1450  ACCTTCCAACAGTA-A-CGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+             |||||||||||  | | ||| |||||||||||| | |||||||| || || ||  |||  
+Sbjct  6629  ACCTTCCAACACGACAGCGACCCTAAGCACACAGCCAAGACAATGCAGGACTGGCTTCAG  6688
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||| ||||||||||||||||||||||||||||||||| ||  | ||| |||||||||||
+Sbjct  6689  GACATGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCTGGACTTGGACCCGATCGAA  6748
+
+Query  1566  CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+             || ||| || ||  | | |||  |||||||||||||  |||||||||||||||||||   
+Sbjct  6749  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCAATGCTCCCCATCCAACCTGACAGAG  6808
+
+Query  1615  CTTGAGAGGATCTGCAGAAGAGAATG  1640
+             ||||||||||||||||||  ||||||
+Sbjct  6809  CTTGAGAGGATCTGCAGACAAGAATG  6834
+
+
+>gb|KF870474.1| Oncorhynchus mykiss transforming growth factor beta 2 (TGF-beta2) 
+gene, complete cds
+Length=24574
+
+ Score = 165 bits (89),  Expect = 1e-35
+ Identities = 173/210 (82%), Gaps = 19/210 (9%)
+ Strand=Plus/Plus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCAC-G-AGT-GCTTT  1503
+             ||||||||||| |  ||| | |||||||||||| | |||||||  ||| | ||| |||||
+Sbjct  7459  ACCTTCCAACAGGACAACAACCCTAAGCACACAGCCAAGACAA--CACAGAAGTGGCTTT  7516
+
+Query  1504  CTGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCG  1563
+               |||||||||||||||||||||||||||||||||||||  |   | |||||||||||||
+Sbjct  7517  GGGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAACCCGGACTTGAACCCGATCG  7576
+
+Query  1564  AACACCTC-GGCGA---CT-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA-  1614
+             |||| ||| || ||   || |||  ||||||||||| |  ||||||||||||||||||| 
+Sbjct  7577  AACATCTCTGGAGAGATCTGAAAATAGCTGTGCAGCGATGCTCCCCATCCAACCTGACAG  7636
+
+Query  1615  --CTTGAGAGGATCTGCAGAAGAGAATGTG  1642
+               ||||||||||||||||||  ||||||||
+Sbjct  7637  AGCTTGAGAGGATCTGCAGAGAAGAATGTG  7666
+
+
+>gb|HQ287746.1| Coregonus clupeaformis heat shock cognate 70 kDa protein (HSP70) 
+gene, partial cds
+Length=67946
+
+ Score = 161 bits (87),  Expect = 1e-34
+ Identities = 169/206 (82%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGAC-CTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||| | |  ||| || ||||||||||| | |||||||  || ||||| ||||  
+Sbjct  47891  ACCTTCCAAAAGGACAACAACACTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTTGA  47832
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              |||||||||||||||||||||||||||||||||||||| |   | |||||||||||||||
+Sbjct  47831  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAA  47772
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---  1614
+              || ||| || ||  | | |||  ||||||||||| | |||||||||||||| |||||   
+Sbjct  47771  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCGACACTCCCCATCCAACTTGACAGAG  47712
+
+Query  1615   CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||| ||||||||||  ||||||
+Sbjct  47711  CTTGAGAAGATCTGCAGAGAAGAATG  47686
+
+
+ Score = 139 bits (75),  Expect = 6e-28
+ Identities = 166/207 (80%), Gaps = 18/207 (9%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+              ||||||||||| |  || || || ||||||||| | |||||||  || |||||| |||  
+Sbjct  16088  ACCTTCCAACAGGACAATGACCCAAAGCACACAGCCAAGACAACGCAAGAGTGCCTTCGG  16029
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG-TCT-ACAATTGAACCCGATCG  1563
+              || | ||||||||||||||||||||||||||||||||| ||  ||  ||||||| |||||
+Sbjct  16028  GAAAGGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCTCGGAC--TTGAACCTGATCG  15971
+
+Query  1564   AACACCTCGGC-GA--C-T-AAA--AGCTGTGCAGCAAACTCCCCATCCAACCTGACA--  1614
+              |||| ||| || ||  | | |||  |||||||||||    | ||||||||||||||||  
+Sbjct  15970  AACATCTCTGCAGAGACCTGAAAATAGCTGTGCAGCGTCGTTCCCATCCAACCTGACAGA  15911
+
+Query  1615   -CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||||||||||||  ||||||
+Sbjct  15910  GCTTGAGAGGATCTGCAGAGAAGAATG  15884
+
+
+>gb|EU025717.1| Salmo salar coiled-coil transcriptional coactivator b (Kiaa1536), 
+homeobox protein HoxC13bb (HoxC13bb), homeobox protein 
+HoxC12bb (HoxC12bb), and homeobox protein HoxC11bb (HoxC11bb) 
+genes, complete cds; HoxC10bb (HoxC10bb) pseudogene, partial 
+sequence; and homeobox protein HoxC9bb (HoxC9bb), homeobox 
+protein HoxC8bb (HoxC8bb), homeobox protein HoxC6bb (HoxC6bb), 
+homeobox protein HoxC5bb (HoxC5bb), homeobox protein HoxC4bb 
+(HoxC4bb), and single-strand selective monofunctional 
+uracil (Smug1) genes, complete cds
+Length=284707
+
+ Score = 161 bits (87),  Expect = 1e-34
+ Identities = 169/206 (82%), Gaps = 15/206 (7%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAAC-AGT-AACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+               |||||||||| ||| ||||| |||||||||||| | |||||||  || || ||  |||  
+Sbjct  111487  ACCTTCCAACAAGTCAACGACCCTAAGCACACAGCCAAGACAACACAGGACTGGCTTCAG  111546
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | |||||||||||| ||
+Sbjct  111547  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCAAA  111606
+
+Query  1566    CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+               || ||| || ||  | | |||  |||||||||||||  |||||||||||||||||||   
+Sbjct  111607  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCAACGCTCCCCATCCAACCTGACAAAG  111666
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||| |||| |||  ||||||
+Sbjct  111667  CTTGAGAGGCTCTGTAGAGAAGAATG  111692
+
+
+ Score = 143 bits (77),  Expect = 5e-29
+ Identities = 151/185 (82%), Gaps = 12/185 (6%)
+ Strand=Plus/Plus
+
+Query  1468   CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-TGACAAGTCTCTGAATGTCCTT  1526
+              |||||| ||||| | |||||||| || |||||  |||  |||||||||||||||||||||
+Sbjct  17626  CCTAAGAACACATCCAAGACAATGCAGGAGTGGCTTCGGGACAAGTCTCTGAATGTCCTT  17685
+
+Query  1527   GAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACACCTC-GGCGA--C-T-AAA  1581
+              ||||||||| ||||||| |   | |||||| ||||| |||| ||| || ||  | | |||
+Sbjct  17686  GAGTGGCCCTGCCAGAGCCCGGACTTGAACTCGATCAAACATCTCTGGAGAGACCTGAAA  17745
+
+Query  1582   --AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---CTTGAGAGGATCTGCAGAAGA  1635
+                ||||||||||| |  |||||||||||||||||||   ||||||||||||||||||  |
+Sbjct  17746  ATAGCTGTGCAGCGACGCTCCCCATCCAACCTGACAGAGCTTGAGAGGATCTGCAGAGAA  17805
+
+Query  1636   GAATG  1640
+              |||||
+Sbjct  17806  GAATG  17810
+
+
+ Score = 65.8 bits (35),  Expect = 1e-05
+ Identities = 40/42 (95%), Gaps = 2/42 (5%)
+ Strand=Plus/Minus
+
+Query  4576   AAATCAGCAGAGGGGATCAAATACTTTTTCCCCCCACTGTAT  4617
+              ||||||||  ||||||||||||||||||||||||||||||||
+Sbjct  39186  AAATCAGC--AGGGGATCAAATACTTTTTCCCCCCACTGTAT  39147
+
+
+>gb|DQ156150.1| Salmo salar BAC S0188I22, partial sequence
+Length=203947
+
+ Score = 161 bits (87),  Expect = 1e-34
+ Identities = 169/206 (82%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||| |  || || |||||||||||| | |||||||| || ||||| |||   
+Sbjct  54996  ACCTTCCAACAGGACAATGACCCTAAGCACACAGCCAAGACAATGCAGGAGTGGCTTCAG  54937
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              |||||||||||||||||||||||||||||| ||||||  |   | ||||||||||| | |
+Sbjct  54936  GACAAGTCTCTGAATGTCCTTGAGTGGCCCTGCCAGAACCCGGACTTGAACCCGATTGGA  54877
+
+Query  1566   CACCTC-GGC--GAC-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---  1614
+              || ||| ||   ||| | |||  ||||||||||||| ||||||||||||||||||||   
+Sbjct  54876  CATCTCTGGAAAGACCTGAAAATAGCTGTGCAGCAACACTCCCCATCCAACCTGACAGAG  54817
+
+Query  1615   CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||||||||||||||  ||||||
+Sbjct  54816  CTTGAGAGGATCTGCAGAGAAGAATG  54791
+
+
+>emb|AM233509.1| Salmo salar tlr22a gene for Toll-like receptor 22a, clone 9P6
+Length=4579
+
+ Score = 161 bits (87),  Expect = 1e-34
+ Identities = 170/207 (82%), Gaps = 17/207 (8%)
+ Strand=Plus/Plus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+             ||||||||||| |  ||||| ||||||||||   | |||||||  || |||||  |||  
+Sbjct  865   ACCTTCCAACAGGACAACGACCCTAAGCACATTGCCAAGACAACGCAGGAGTGACTTCGG  924
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||||||||||||||||||||||||||||||||||||| |   | |||||||||||||||
+Sbjct  925   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAA  984
+
+Query  1566  CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---  1614
+              | ||| || ||  | | |||  ||||||||| ||| ||||||||||||||||||||   
+Sbjct  985   TATCTCTGGAGAGACCTGAAAATAGCTGTGCATCAACACTCCCCATCCAACCTGACAGAG  1044
+
+Query  1615  CTTGAGAGGATCTGCAGAAGAG-AATG  1640
+             |||||||||||||||||| ||| ||||
+Sbjct  1045  CTTGAGAGGATCTGCAGA-GAGGAATG  1070
+
+
+>gb|HM208332.1| Oncorhynchus mykiss clone BAC20-C13 zinc transporter (SLC39A7.B) 
+gene, MHC class I antigen (Onmy-UGA) gene, Onmy-UGA-OSU 
+allele, RING1.B, ribosomal protein S18 (RPS18.B), vacuolar protein 
+sorting-associated protein 52-like protein (VPS52.b), 
+putative adhesion protein (VIG-B319.b), hyopthetical protein, 
+and cyclic AMP-dependent transcription factor ATF-6 alpha-like 
+protein (ATF6) genes, complete cds; and TNXB (TNXB.B) 
+gene, partial cds
+Length=171506
+
+ Score = 159 bits (86),  Expect = 5e-34
+ Identities = 162/196 (83%), Gaps = 15/196 (8%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+              ||||||||||| | ||| || |||||||||||| | |||||||| || ||||| ||||  
+Sbjct  21337  ACCTTCCAACATGATAATGACCCTAAGCACACAGCCAAGACAATCCAAGAGTGGTTTCGG  21396
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              |||||||||||||||||||||||||||||||||||||| |   | |||||||||||||| 
+Sbjct  21397  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAC  21456
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+              || ||| || ||  | | |||  ||||||||| |||  ||||||||||||||||| |   
+Sbjct  21457  CATCTCTGGAGAGACCTGAAAATAGCTGTGCATCAATGCTCCCCATCCAACCTGAGAGAG  21516
+
+Query  1615   CTTGAGAGGATCTGCA  1630
+              ||||| ||||||||||
+Sbjct  21517  CTTGAAAGGATCTGCA  21532
+
+
+ Score = 139 bits (75),  Expect = 6e-28
+ Identities = 161/199 (81%), Gaps = 20/199 (10%)
+ Strand=Plus/Plus
+
+Query  1447   ATT-ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTT  1502
+              ||| ||||||||||| |  ||||| |||||||||||| | ||||||   || || ||  |
+Sbjct  22899  ATTCACCTTCCAACATGACAACGACCCTAAGCACACAGCCAAGACAGCGCAGGAATGGCT  22958
+
+Query  1503   TC-TGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG-TCT-ACAATTGAACCCG  1559
+              ||  |||||||||||||||||||||||||||||||||||||| ||  ||  |||||||||
+Sbjct  22959  TCGGGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGGTCGGAC--TTGAACCCG  23016
+
+Query  1560   ATCGAACACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTG  1611
+              ||||| || ||| || ||  | | |||  |||||||||||||  ||||||||||||||||
+Sbjct  23017  ATCGACCATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCAATGCTCCCCATCCAACCTG  23076
+
+Query  1612   ACA---CTTGAGAGGATCT  1627
+              | |   |||||||| ||||
+Sbjct  23077  AGAGAGCTTGAGAGAATCT  23095
+
+
+ Score = 115 bits (62),  Expect = 1e-20
+ Identities = 127/157 (81%), Gaps = 10/157 (6%)
+ Strand=Plus/Plus
+
+Query  1468    CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT-GACAAGTCTCTGAATGTCCT  1525
+               ||||||||||||||||||||||  || ||||| ||| |  |||| ||| |||||||||||
+Sbjct  159297  CCTAAGCACACAACTAAGACAAAGCAGGAGTGGCTTCCCGGACAGGTCCCTGAATGTCCT  159356
+
+Query  1526    TGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACACCTC-GGCGA--C-TAAA  1581
+               |||||||||||||||||| |   | |||||||||||| || | ||| || ||  | ||||
+Sbjct  159357  TGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCAAAAATCTCTGGAGAGACCTAAA  159416
+
+Query  1582    ---AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA  1614
+                  ||||||||||| |  ||| |||||||| ||||||
+Sbjct  159417  AATAGCTGTGCAGCGACGCTCTCCATCCAAACTGACA  159453
+
+
+ Score = 97.1 bits (52),  Expect = 4e-15
+ Identities = 83/97 (86%), Gaps = 5/97 (5%)
+ Strand=Plus/Plus
+
+Query  1447    ATT-ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGT-GCT  1501
+               ||| ||||||||||| |  ||||| |||||||||||| | ||||||| ||  || | |||
+Sbjct  123565  ATTCACCTTCCAACAGGACAACGACCCTAAGCACACAGCCAAGACAACTCCGGAATGGCT  123624
+
+Query  1502    TTCTGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGC  1538
+               ||  |||||||||||||||||||||||||||||||||
+Sbjct  123625  TTGGGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGC  123661
+
+
+>gb|GQ505858.1| Salmo salar clone BAC CHORI214-129P21 genomic sequence
+Length=202799
+
+ Score = 159 bits (86),  Expect = 5e-34
+ Identities = 151/180 (84%), Gaps = 13/180 (7%)
+ Strand=Plus/Plus
+
+Query  1466    GAC-CTAAGCACACAACTAAGACAATTCACGAGT-GCTTTCTGACAAGTCTCTGAATGTC  1523
+               ||| ||||||||||| | |||||||| || |||| ||||   ||||||||||||||||||
+Sbjct  105515  GACTCTAAGCACACAGCCAAGACAATACAGGAGTGGCTTAGGGACAAGTCTCTGAATGTC  105574
+
+Query  1524    CTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACACCTC-GGCGA--C-T-  1578
+               ||||||||||||||||||||||   | |||||||| |||||||| ||| || ||  | | 
+Sbjct  105575  CTTGAGTGGCCCAGCCAGAGTCCGGACTTGAACCCAATCGAACATCTCTGGAGAGACCTG  105634
+
+Query  1579    AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGAC--A-CTTGAGAGGATCTGCAGA  1632
+               |||  ||||||||||| |  ||||||||||||||||||  | ||||||||||||||||||
+Sbjct  105635  AAAATAGCTGTGCAGCGACGCTCCCCATCCAACCTGACGGAGCTTGAGAGGATCTGCAGA  105694
+
+
+ Score = 141 bits (76),  Expect = 2e-28
+ Identities = 222/287 (77%), Gaps = 32/287 (11%)
+ Strand=Plus/Minus
+
+Query  1451    CCTTCCAACAGTAAC---GA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+               ||||||||||| |||   || |||||||||||| | |||||||  || ||||| |||   
+Sbjct  176949  CCTTCCAACAG-AACAATGACCCTAAGCACACAGCCAAGACAACGCAAGAGTGGCTTCGG  176891
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| | | | |||||| | ||||||
+Sbjct  176890  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCAGATTTGAACACAATCGAA  176831
+
+Query  1566    CACCTC-GGC--GAC-T-AAAAG-C-TGTGCAGCAAA-CTCCCCATCCAACCTGACA-C-  1615
+               || ||| ||   ||| | ||||  | |||||||| |  ||||||||||||||||||| | 
+Sbjct  176830  CATCTCTGGAAAGACCTGAAAATACCTGTGCAGCGACGCTCCCCATCCAACCTGACAGCG  176771
+
+Query  1616    -TTGAGAGGATCTGCAGAAGAGAATGTGC---ATACAGGTGTGCCT--CAAGTCCGCGTC  1669
+                |||||||||| ||  || || |||   |   |||||||||||||   |  ||  || ||
+Sbjct  176770  CTTGAGAGGAT-TGT-GA-GA-AATTCCCCAAATACAGGTGTGCCAAGCTTGTA-GCTTC  176716
+
+Query  1670    AG-CCCAAGAAGAATCATTGCT-TAATCTGGCTGCCAAATGTGTCTT  1714
+               |  |||||||||| |||  ||| |||||  ||||||||| ||| |||
+Sbjct  176715  ATACCCAAGAAGACTCAAGGCTGTAATC--GCTGCCAAAGGTG-CTT  176672
+
+
+ Score = 137 bits (74),  Expect = 2e-27
+ Identities = 165/206 (80%), Gaps = 18/206 (9%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACAGTA-A-CGA-CCTAAGCACACAACTAAGACAATTCACGAG-TGCTTTC-  1504
+               |||||||||||| | | ||| |||||||||||| | |||||||  || ||| ||  | | 
+Sbjct  135912  ACCTTCCAACAGGACACCGACCCTAAGCACACAGCCAAGACAACGCA-GAGATGGCTACG  135970
+
+Query  1505    TGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGA  1564
+                |||||||||||||||||||||||||||||||||||||| ||  | |||| ||  ||| |
+Sbjct  135971  AGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCTGGACTTGAGCCAAATCAA  136030
+
+Query  1565    ACACCTC-GGCGA--C-T-AAAA--GCTGTGCAGCAAACTCCCCATCCAACCTGACA---  1614
+               ||| ||| || ||  | | ||||  |||||||||||  |||||||  ||||||||||   
+Sbjct  136031  ACATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCA--CTCCCCACGCAACCTGACAGAG  136088
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||||||||||||  ||||||
+Sbjct  136089  CTTGAGAGGATCTGCAGAGAAGAATG  136114
+
+
+ Score = 102 bits (55),  Expect = 8e-17
+ Identities = 97/117 (83%), Gaps = 4/117 (3%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAAC-GACCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+              ||||||||||| |  |||  ||| ||||||| | | |||||||| || |||||  |||  
+Sbjct  59082  ACCTTCCAACAGGACAACAAACCGAAGCACATAGCCAAGACAATGCAGGAGTGGCTTCGG  59141
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATC  1562
+              |||||||||||||||||||||||||||||||||||||| ||  | ||||||| ||||
+Sbjct  59142  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCTGGACTTGAACCTGATC  59198
+
+
+>gb|GQ505860.1| Salmo salar clone BAC CHORI214-68O19 genomic sequence
+Length=240893
+
+ Score = 156 bits (84),  Expect = 6e-33
+ Identities = 168/206 (82%), Gaps = 15/206 (7%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+               ||||||||||| |  ||| | |||||||||||| | |||||||  || |||||  |||  
+Sbjct  139405  ACCTTCCAACAGGACAACAACCCTAAGCACACATCCAAGACAACGCAGGAGTGGCTTCGG  139464
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| | | | ||||||||||| |||
+Sbjct  139465  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCAGACTTGAACCCGATTGAA  139524
+
+Query  1566    CACCTC-GGCGA--C-T---AAAAGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---  1614
+               || ||| || ||  | |   ||||||| |||||| | | |||||||||||| |||||   
+Sbjct  139525  CATCTCTGGAGAGACCTGAAAAAAGCTATGCAGCGACAGTCCCCATCCAACTTGACAGAG  139584
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||||||||||||  ||||||
+Sbjct  139585  CTTGAGAGGATCTGCAGAGAAGAATG  139610
+
+
+>gb|EU621899.1| Salmo salar clone 63I10 growth hormone 2 gene, complete cds; 
+and skeletal muscle sodium channel alpha subunit-like, myosin 
+alkali light chain-like, and microtubule-associated protein 
+Tau-like genes, complete sequence
+Length=203857
+
+ Score = 156 bits (84),  Expect = 6e-33
+ Identities = 133/155 (86%), Gaps = 9/155 (6%)
+ Strand=Plus/Minus
+
+Query  2892   TTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTT  2950
+              |||| ||||| ||||| |||||||||||| |  |||||||||||||||||||| |   ||
+Sbjct  56827  TTTTGTTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCTCCTACATTAAT--TT  56771
+
+Query  2951   CACATT-CCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCT  3007
+              |||||| ||||||||||  ||||||||  ||||||||||||| ||| |||||||||||||
+Sbjct  56770  CACATTTCCACAAACTTGAAAGTGTTTCCTTTCAAATGGTATCAAGCATATGCATATCCT  56711
+
+Query  3008   TGCTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              ||||||||||||||||| ||| | | ||||| |||
+Sbjct  56710  TGCTTCAGGTCCTGAGCAACAGGCAGTTAGA-TTT  56677
+
+
+ Score = 150 bits (81),  Expect = 3e-31
+ Identities = 167/206 (81%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||| |  ||||| |||||||||||| | |||||||  || ||||| |||   
+Sbjct  93047  ACCTTCCAACAGGACAACGACCCTAAGCACACAGCCAAGACAACGCAGGAGTGACTTCGG  92988
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              ||| |||||||||||||||||||||||||||||| ||| | | | |||||||||||||||
+Sbjct  92987  GACTAGTCTCTGAATGTCCTTGAGTGGCCCAGCCTGAGCCCAGACTTGAACCCGATCGAA  92928
+
+Query  1566   CACCTC-GGCGAC-T---AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+              || ||| || ||  |   |||  |||||||||  ||  || ||||||||||||||||   
+Sbjct  92927  CATCTCTGGAGAGATCGGAAAATAGCTGTGCATTAACGCTGCCCATCCAACCTGACAGAG  92868
+
+Query  1615   CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||||||||||||||  ||||||
+Sbjct  92867  CTTGAGAGGATCTGCAGAGAAGAATG  92842
+
+
+ Score = 63.9 bits (34),  Expect = 4e-05
+ Identities = 42/45 (93%), Gaps = 3/45 (7%)
+ Strand=Plus/Plus
+
+Query  4573    TAC-AAATCAGCAGAGGGGATCAAATACTTTTTCCCCCCACTGTA  4616
+               ||| ||||||||  |||||||||||||||||||||||||||||||
+Sbjct  151449  TACAAAATCAGC--AGGGGATCAAATACTTTTTCCCCCCACTGTA  151491
+
+
+>gb|DQ246664.1| Oncorhynchus mykiss SYPG1 (SYPG1), PHF1 (PHF1), and RGL2 (RGL2) 
+genes, complete cds; DNaseII pseudogene, complete sequence; 
+LGN-like, PBX2 (PBX2), NOTCH-like, TAP1 (TAP1), and BRD2 
+(BRD2) genes, complete cds; and MHCII-alpha and Raftlin-like 
+pseudogenes, complete sequence
+Length=319299
+
+ Score = 156 bits (84),  Expect = 6e-33
+ Identities = 168/206 (82%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+             ||||||||||| |  || || |||||||||||| | |||||||  || ||||| ||||  
+Sbjct  231   ACCTTCCAACAGGACAATGACCCTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTTGG  172
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||||||||||||||||||||||||||||||||||||  |   |  ||||||||||| ||
+Sbjct  171   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAACCCGGACGTGAACCCGATCTAA  112
+
+Query  1566  CACCTC-GGCGA--C-T-AAAA--GCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+             || ||  || ||  | | ||||  ||||||||||||  |||||||||||||||||||   
+Sbjct  111   CATCTATGGAGAGACCTGAAAATGGCTGTGCAGCAATGCTCCCCATCCAACCTGACAGAG  52
+
+Query  1615  CTTGAGAGGATCTGCAGAAGAGAATG  1640
+             ||||||||||||||||||  ||||||
+Sbjct  51    CTTGAGAGGATCTGCAGAGAAGAATG  26
+
+
+ Score = 84.2 bits (45),  Expect = 3e-11
+ Identities = 103/129 (80%), Gaps = 11/129 (9%)
+ Strand=Plus/Plus
+
+Query  4904   GCTGGTTG-CTTG--GAAACATA-CAGACG--C-GGCACAGAGAGACAGGAAAGACCCA-  4955
+              |||||||| ||||   |||||||  |||||  | ||| ||||||||||||||| ||    
+Sbjct  20967  GCTGGTTGACTTGACTAAACATATAAGACGAACTGGCGCAGAGAGACAGGAAACACAGGG  21026
+
+Query  4956   AGAAGC-CACTGGGGAAAATAAGCGACACCTGGAGGGGGATGGAGACAATTACAAGGAGA  5014
+              | ||   ||||||||||||||||||||||||||||| || |||||||||| ||| | | |
+Sbjct  21027  ATAAATACACTGGGGAAAATAAGCGACACCTGGAGGCGG-TGGAGACAATCACAGGAACA  21085
+
+Query  5015   G-TGAAACA  5022
+              | |||||||
+Sbjct  21086  GGTGAAACA  21094
+
+
+>gb|EU481821.1| Salmo salar physical map contig 483, genomic sequence
+Length=907017
+
+ Score = 154 bits (83),  Expect = 2e-32
+ Identities = 153/184 (83%), Gaps = 15/184 (8%)
+ Strand=Plus/Plus
+
+Query  1463    AACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-TGACAAGTCTCTGAAT  1520
+               ||||| |||||||||||| ||||||||| ||| |||||  |||  |||||||||||||||
+Sbjct  185406  AACGACCCTAAGCACACAGCTAAGACAACTCAGGAGTGGCTTCGGGACAAGTCTCTGAAT  185465
+
+Query  1521    GTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACA-C-CTCG-GCGAC  1577
+               ||||||||||||||||||||||| |   | ||||||||||||||||| | |||| | |||
+Sbjct  185466  GTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAACATCTCTCGAGAGAC  185525
+
+Query  1578    -T-AA-AA-GCTGTG-CAGCAAA-CTCCCCATCCAACCTGACA---CTTGAGAGGATCTG  1628
+                | || || | | || || |||  |||||||||||||||||||   |||||||| |||||
+Sbjct  185526  CTGAAGAAAGATTTGACA-CAACGCTCCCCATCCAACCTGACAGAGCTTGAGAGTATCTG  185584
+
+Query  1629    CAGA  1632
+               ||||
+Sbjct  185585  CAGA  185588
+
+
+ Score = 139 bits (75),  Expect = 6e-28
+ Identities = 165/206 (80%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+               ||||||||||| |  || || |||||||||||| | |  ||||  || |||||  |||  
+Sbjct  533131  ACCTTCCAACAGGACAAAGACCCTAAGCACACAGCCAGTACAACGCAGGAGTGTCTTCGG  533072
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | || ||||||||||||
+Sbjct  533071  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTTAACCCGATCGAA  533012
+
+Query  1566    CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAACT-CCCCATCCAACCTGACA---  1614
+               || ||| || ||  | | |||  ||||||||||  |  | |||||||||||||||||   
+Sbjct  533011  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGTGATGTTCCCCATCCAACCTGACAGAG  532952
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||||||||||||  ||||||
+Sbjct  532951  CTTGAGAGGATCTGCAGAGAAGAATG  532926
+
+
+ Score = 130 bits (70),  Expect = 4e-25
+ Identities = 122/145 (84%), Gaps = 12/145 (8%)
+ Strand=Plus/Minus
+
+Query  1507    ACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAAC  1566
+               ||||||||||||||||||||||||||||||||||||| |   | |||| |||||||||||
+Sbjct  138148  ACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGA-CCCGATCGAAC  138090
+
+Query  1567    A-C-CTCG-GCGA-CT--AAA-AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---C  1615
+               | | || | | || ||  ||| ||||||||||||| ||||||||||||||||||||   |
+Sbjct  138089  ATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCAACACTCCCCATCCAACCTGACAAAGC  138030
+
+Query  1616    TTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||  |||||||||  ||||||
+Sbjct  138029  TTGAGATAATCTGCAGAGAAGAATG  138005
+
+
+ Score = 126 bits (68),  Expect = 5e-24
+ Identities = 344/466 (74%), Gaps = 63/466 (14%)
+ Strand=Plus/Plus
+
+Query  2585    TTGTTAATCTAACTACACTGTCCAATT--CAGGTAG-G-TTGCAGTGAAAGAATGAC-TG  2639
+               |||||||||||||| ||||||||||||  || |||| | || |||||||| |||  | ||
+Sbjct  672628  TTGTTAATCTAACTGCACTGTCCAATTTACA-GTAGCGATTCCAGTGAAATAATACCATG  672686
+
+Query  2640    CTATTGTTTGGGGAGTGTGGCACAAGTCCTGAACTTTTGTA-TT-AA-T-ATAAACCATT  2695
+               |||||||||| |||| ||| ||| |||  |||||||    | || || | |||||||| |
+Sbjct  672687  CTATTGTTTGAGGAGAGTG-CAC-AGTTATGAACTTCAAAAGTTAAAGTAATAAACCAAT  672744
+
+Query  2696    AAGGCACATTTGGGCGATCTTGGACCCCCGGGGAATTTGAACAGTTATGCAATGGTTCAT  2755
+                ||||||||||||||  |||| ||    |    | ||| || |   |  ||||||| |||
+Sbjct  672745  TAGGCACATTTGGGCAGTCTT-GA--TAC-AACATTTTTAAAATAAAAACAATGGTACAT  672800
+
+Query  2756    TGACGGGATCAGTCGACACACTTTGCACATACACTCCATTGTAGAAATCTAAATGGCCTG  2815
+               ||    |||||||| | | |||||||||||||||| |    | |  |||| | |||||  
+Sbjct  672801  TG----GATCAGTCTA-AAACTTTGCACATACACTGC----T-GCCATCT-AGTGGCC-A  672848
+
+Query  2816    AGGTC----TTG-TGCTGGGCTGGAGAATAAT-CATTATGGCCTTTCTC--GCATTTC-A  2866
+               |  ||    |||   ||   || | ||||||| ||||||||||||||||  ||||||| |
+Sbjct  672849  AAATCTAAATTGCACCTAAACT-G-GAATAATACATTATGGCCTTTCTCTAGCATTTCAA  672906
+
+Query  2867    A-ATGGTACAAAAATAAAGAAATCGATTTTCTTTGTGATTAT-TTTTACCAGATCGACCG  2924
+               | ||| || ||| ||   |   |   |||||||||| ||||| ||||||| |||| |  |
+Sbjct  672907  AGATGATA-AAACAT---G---TTTTTTTTCTTTGT-ATTATCTTTTACCTGATCTAATG  672958
+
+Query  2925    TGTTATATTCTCCTACATTCACCCTTCACATTC-CACAAACTTC-AAGTGTTTATTTTCA  2982
+               ||||||||||||||||||| ||  ||||||||  |||||||||| ||||||||  |||||
+Sbjct  672959  TGTTATATTCTCCTACATTAAC--TTCACATTTACACAAACTTCAAAGTGTTTCCTTTCA  673016
+
+Query  2983    AATGGTATAAGAATATGCATATCCTTGCTTCAGGTCCTGAGCTACA  3028
+               ||   |||||        ||||||||||||||||||||||||||||
+Sbjct  673017  AAA--TATAA--------ATATCCTTGCTTCAGGTCCTGAGCTACA  673052
+
+
+ Score = 106 bits (57),  Expect = 6e-18
+ Identities = 85/98 (87%), Gaps = 4/98 (4%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||| |  ||| | |||||||||||| | |||||||| || ||||| |||   
+Sbjct  66979  ACCTTCCAACAGGACAACAACCCTAAGCACACAGCCAAGACAATGCAGGAGTGGCTTCGG  66920
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG  1543
+              ||||||||||||||||||||||||||||||||||||||
+Sbjct  66919  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG  66882
+
+
+ Score = 106 bits (57),  Expect = 6e-18
+ Identities = 164/212 (77%), Gaps = 22/212 (10%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAA-TTCACGAGT-GCTTTC  1504
+               ||||||||||| |  ||||| ||| || ||| | | || ||||  | | |||| | ||| 
+Sbjct  428372  ACCTTCCAACAGGACAACGACCCTGAGAACATAGCCAAAACAACGTTA-GAGTGGATTTG  428430
+
+Query  1505    TGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCC-AG--AGT--CTACAATTGAACCCG  1559
+                |||||||||||||||||||||||||||||||||| ||  ||   ||  | ||||||| |
+Sbjct  428431  GGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCCAGCCAGAACCTGGACTTGAACCTG  428490
+
+Query  1560    ATCGAACACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTG  1611
+               ||||||||  || || ||  | | |||  ||||||||||| | |||||||||||| ||||
+Sbjct  428491  ATCGAACATTTCTGGAGAGACCTGAAAATAGCTGTGCAGCGACACTCCCCATCCAGCCTG  428550
+
+Query  1612    ACA---CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               |||   ||| |||| |||||||||  ||||||
+Sbjct  428551  ACATAGCTTCAGAGAATCTGCAGACAAGAATG  428582
+
+
+>gb|EF467297.1| Salmo salar clone 36P16 TCR-alpha/delta locus, genomic sequence
+Length=182614
+
+ Score = 154 bits (83),  Expect = 2e-32
+ Identities = 132/154 (86%), Gaps = 9/154 (6%)
+ Strand=Plus/Minus
+
+Query  2894   TTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCA  2952
+              ||| ||||| |||| |||||||||||| |  |||||||||||||||||||| |   ||||
+Sbjct  74239  TTCATTGTG-TTATCTTTTACCAGATCTAATGTGTTATATTCTCCTACATTAAT--TTCA  74183
+
+Query  2953   CATT-CCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTG  3009
+              |||| ||||| | ||| ||||||||  ||||||||||||| || ||||||||||||||||
+Sbjct  74182  CATTTCCACACATTTCAAAGTGTTTCCTTTCAAATGGTATCAATAATATGCATATCCTTG  74123
+
+Query  3010   CTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTTA  3042
+              ||||||||||||||||||| | | ||||| ||||
+Sbjct  74122  CTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTTA  74090
+
+
+ Score = 147 bits (79),  Expect = 4e-30
+ Identities = 130/153 (85%), Gaps = 9/153 (6%)
+ Strand=Plus/Minus
+
+Query  2894   TTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCA  2952
+              ||| ||||| |||| |||||||||||| |  |||||||||||||||||||| |   ||||
+Sbjct  17895  TTCATTGTG-TTATCTTTTACCAGATCTAATGTGTTATATTCTCCTACATTAAT--TTCA  17839
+
+Query  2953   CAT-TCCACAAACTTCAA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTG  3009
+              ||| |||||| | ||||| ||||||  ||||||||||||| || ||||||||||||||||
+Sbjct  17838  CATGTCCACACATTTCAAAGTGTTTCCTTTCAAATGGTATCAATAATATGCATATCCTTG  17779
+
+Query  3010   CTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              ||||||||||||| ||||| | | ||||| |||
+Sbjct  17778  CTTCAGGTCCTGATCTACAGGCAGTTAGA-TTT  17747
+
+
+>gb|GQ505859.1| Salmo salar clone BAC CHORI214-439H13 genomic sequence
+Length=152251
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 170/210 (81%), Gaps = 16/210 (8%)
+ Strand=Plus/Plus
+
+Query  1447  ATT-ACCTTCCAACAGT--AACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTT  1502
+             ||| ||||||||||  |  || || |||||||||||| | ||||||   || || ||  |
+Sbjct  5360  ATTCACCTTCCAACGATACAATGACCCTAAGCACACAGCCAAGACAGCGCAGGAATGGCT  5419
+
+Query  1503  TC-TGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGAT  1561
+             ||  |||||||||||||||||||||||||||||||||||||| |   | |||||||||||
+Sbjct  5420  TCGGGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGGCCGGACTTGAACCCGAT  5479
+
+Query  1562  CGAACACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGAC  1613
+             ||| || ||| || ||  | | |||  |||||||||||||  ||||||||||||||||||
+Sbjct  5480  CGACCATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCAATGCTCCCCATCCAACCTGAC  5539
+
+Query  1614  A---CTTGAGAGGATCTGCAGAAGAGAATG  1640
+             |   ||||||||||||||||||  ||||||
+Sbjct  5540  AGAGCTTGAGAGGATCTGCAGAGAAGAATG  5569
+
+
+ Score = 141 bits (76),  Expect = 2e-28
+ Identities = 158/195 (81%), Gaps = 15/195 (8%)
+ Strand=Plus/Plus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+             ||||||||||| |  || || |||||||||||| | |||||||| || |||||  |||  
+Sbjct  2944  ACCTTCCAACACGACAATGACCCTAAGCACACAGCCAAGACAATGCAGGAGTGGCTTCAG  3003
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||||||||||||||||||||||||||||||||||||| |   | |||||||| ||| ||
+Sbjct  3004  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCAATCTAA  3063
+
+Query  1566  CACCTC-GGCGA--C-T-A-AA-AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+             || ||| || ||  | | | || ||| | |||||||  ||||||||||||||||| |   
+Sbjct  3064  CATCTCTGGAGAGACCTGAGAATAGCGGGGCAGCAACGCTCCCCATCCAACCTGATAGAG  3123
+
+Query  1615  CTTGAGAGGATCTGC  1629
+             |||||||||||||||
+Sbjct  3124  CTTGAGAGGATCTGC  3138
+
+
+>gb|EF467299.1| Salmo salar clone 249L01 TCR-alpha/delta locus, genomic sequence
+Length=224724
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 131/153 (86%), Gaps = 9/153 (6%)
+ Strand=Plus/Minus
+
+Query  2894    TTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCA  2952
+               ||| ||||| |||| |||||||||||| |  |||||||||||||||||||| |   ||||
+Sbjct  166685  TTCATTGTG-TTATCTTTTACCAGATCTAATGTGTTATATTCTCCTACATTAAT--TTCA  166629
+
+Query  2953    CATT-CCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTG  3009
+               |||| ||||| | ||| ||||||||  ||||||||||||| || ||||||||||||||||
+Sbjct  166628  CATTTCCACACATTTCAAAGTGTTTCCTTTCAAATGGTATCAATAATATGCATATCCTTG  166569
+
+Query  3010    CTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+               ||||||||||||||||||| | | ||||| |||
+Sbjct  166568  CTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  166537
+
+
+>gb|EF427381.1| Salmo salar clone BAC CHORI214-30C23, complete sequence
+Length=218410
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 129/150 (86%), Gaps = 9/150 (6%)
+ Strand=Plus/Plus
+
+Query  2897   TTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACA-  2954
+              ||||| ||||| |||||||||||| |  |||||||||||||| ||||| |   |||||| 
+Sbjct  89830  TTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCTCCCACATT-A-AATTCACAT  89886
+
+Query  2955   TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTT  3012
+              ||||||||||||| ||||  ||  ||||||||||||| ||||||||||||||||||||||
+Sbjct  89887  TTCCACAAACTTCAAAGTACTTCCTTTCAAATGGTATCAAGAATATGCATATCCTTGCTT  89946
+
+Query  3013   CAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              |||||||||||||||| | | ||||| |||
+Sbjct  89947  CAGGTCCTGAGCTACAGGCAGTTAGA-TTT  89975
+
+
+ Score = 132 bits (71),  Expect = 1e-25
+ Identities = 175/222 (79%), Gaps = 19/222 (9%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGT-GCTTTCT  1505
+               ||||||||||| |  ||||| |||||||||||| | |||||||  || |||| |||||  
+Sbjct  171103  ACCTTCCAACAGGACAACGACCCTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTTGA  171162
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | ||||||||||  |||
+Sbjct  171163  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGACTGAA  171222
+
+Query  1566    CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAACTCCCCATCCAACCTGACAC---  1615
+               || ||| || ||  | | |||  ||||||||||| | | | | | ||  |||||||    
+Sbjct  171223  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCGA-CGCTC-A-CCT-CCTGACAGAGT  171278
+
+Query  1616    TTGAGAGGATCTGCAGAAGAGAATGTGC-ATACAGGTGTGCC  1656
+               |||||| ||||||||||  |||||| |  ||| |||||||||
+Sbjct  171279  TTGAGAAGATCTGCAGAGAAGAATGGGAAATATAGGTGTGCC  171320
+
+
+>gb|EF427377.1| Salmo salar clone BAC CH189M18, complete sequence
+Length=170847
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 170/210 (81%), Gaps = 16/210 (8%)
+ Strand=Plus/Plus
+
+Query  1447    ATT-ACCTTCCAACAGT--AACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTT  1502
+               ||| ||||||||||  |  || || |||||||||||| | ||||||   || || ||  |
+Sbjct  145426  ATTCACCTTCCAACGATACAATGACCCTAAGCACACAGCCAAGACAGCGCAGGAATGGCT  145485
+
+Query  1503    TC-TGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGAT  1561
+               ||  |||||||||||||||||||||||||||||||||||||| |   | |||||||||||
+Sbjct  145486  TCGGGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGGCCGGACTTGAACCCGAT  145545
+
+Query  1562    CGAACACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGAC  1613
+               ||| || ||| || ||  | | |||  |||||||||||||  ||||||||||||||||||
+Sbjct  145546  CGACCATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCAATGCTCCCCATCCAACCTGAC  145605
+
+Query  1614    A---CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               |   ||||||||||||||||||  ||||||
+Sbjct  145606  AGAGCTTGAGAGGATCTGCAGAGAAGAATG  145635
+
+
+ Score = 141 bits (76),  Expect = 2e-28
+ Identities = 158/195 (81%), Gaps = 15/195 (8%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+               ||||||||||| |  || || |||||||||||| | |||||||| || |||||  |||  
+Sbjct  143010  ACCTTCCAACACGACAATGACCCTAAGCACACAGCCAAGACAATGCAGGAGTGGCTTCAG  143069
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | |||||||| ||| ||
+Sbjct  143070  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCAATCTAA  143129
+
+Query  1566    CACCTC-GGCGA--C-T-A-AA-AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+               || ||| || ||  | | | || ||| | |||||||  ||||||||||||||||| |   
+Sbjct  143130  CATCTCTGGAGAGACCTGAGAATAGCGGGGCAGCAACGCTCCCCATCCAACCTGATAGAG  143189
+
+Query  1615    CTTGAGAGGATCTGC  1629
+               |||||||||||||||
+Sbjct  143190  CTTGAGAGGATCTGC  143204
+
+
+ Score = 119 bits (64),  Expect = 8e-22
+ Identities = 164/210 (78%), Gaps = 16/210 (8%)
+ Strand=Plus/Plus
+
+Query  1447    ATT-ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGT-GCT  1501
+               ||| ||||||||||| |  ||| | ||||| |||||| | ||| |||| ||  ||| || 
+Sbjct  127118  ATTCACCTTCCAACAGGACAACAACCCTAAACACACAGCCAAGGCAATGCAGCAGTGGCA  127177
+
+Query  1502    TTCTGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGAT  1561
+               |   ||||||||||||||||||||||||||||||||||||| ||   | |  |||| |||
+Sbjct  127178  TAGGGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGATTCCGGACTCAAACCTGAT  127237
+
+Query  1562    CGAACACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGAC  1613
+               |||| | ||| |||||  | | |||  ||||||||| | | |||| | ||||||||||||
+Sbjct  127238  CGAAAATCTCCGGCGATACATGAAAATAGCTGTGCAACGACACTCTCTATCCAACCTGAC  127297
+
+Query  1614    A---CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               |   ||||||||| ||||||||  ||||||
+Sbjct  127298  AGAGCTTGAGAGGCTCTGCAGAGAAGAATG  127327
+
+
+>gb|EF441211.1| Salmo salar clone BAC 868O01, complete sequence
+Length=140046
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 129/150 (86%), Gaps = 9/150 (6%)
+ Strand=Plus/Plus
+
+Query  2897  TTTGTGATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACA-  2954
+             ||||| ||||| |||||||||||| |  |||||||||||||| ||||| |   |||||| 
+Sbjct  6187  TTTGT-ATTATCTTTTACCAGATCTAATGTGTTATATTCTCCCACATT-A-AATTCACAT  6243
+
+Query  2955  TTCCACAAACTTC-AAGTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTT  3012
+             ||||||||||||| ||||  ||  ||||||||||||| ||||||||||||||||||||||
+Sbjct  6244  TTCCACAAACTTCAAAGTACTTCCTTTCAAATGGTATCAAGAATATGCATATCCTTGCTT  6303
+
+Query  3013  CAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+             |||||||||||||||| | | ||||| |||
+Sbjct  6304  CAGGTCCTGAGCTACAGGCAGTTAGA-TTT  6332
+
+
+ Score = 132 bits (71),  Expect = 1e-25
+ Identities = 175/222 (79%), Gaps = 19/222 (9%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGT-GCTTTCT  1505
+              ||||||||||| |  ||||| |||||||||||| | |||||||  || |||| |||||  
+Sbjct  87460  ACCTTCCAACAGGACAACGACCCTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTTGA  87519
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              |||||||||||||||||||||||||||||||||||||| |   | ||||||||||  |||
+Sbjct  87520  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGACTGAA  87579
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAACTCCCCATCCAACCTGACAC---  1615
+              || ||| || ||  | | |||  ||||||||||| | | | | | ||  |||||||    
+Sbjct  87580  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCGA-CGCTC-A-CCT-CCTGACAGAGT  87635
+
+Query  1616   TTGAGAGGATCTGCAGAAGAGAATGTGC-ATACAGGTGTGCC  1656
+              |||||| ||||||||||  |||||| |  ||| |||||||||
+Sbjct  87636  TTGAGAAGATCTGCAGAGAAGAATGGGAAATATAGGTGTGCC  87677
+
+
+>gb|AY100012.1| Oncorhynchus tshawytscha insulin-like growth factor I (IGF-I.1) 
+gene, intron D and partial cds
+Length=2126
+
+ Score = 152 bits (82),  Expect = 8e-32
+ Identities = 166/204 (81%), Gaps = 15/204 (7%)
+ Strand=Plus/Minus
+
+Query  1452  CTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCTGA  1507
+             ||||||||| |  ||||| |||||||||||| | || ||||  || ||||| |||   ||
+Sbjct  608   CTTCCAACAGGACAACGACCCTAAGCACACAGCCAATACAACACAGGAGTGGCTTCGGGA  549
+
+Query  1508  CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACA  1567
+             |||||||||||||||||||||||||||||||||||| | | | |||||||| || |||||
+Sbjct  548   CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGACCAGACTTGAACCCAATTGAACA  489
+
+Query  1568  CCTC-G--GCGAC-T-AAAAG--CTGTGCAGCAAA-CTCCCCATCCAACCTGACA---CT  1616
+               || |  | ||| | ||||   |||||||||||  |||||||||||||||||||   ||
+Sbjct  488   TTTCTGAAGAGACCTGAAAATAACTGTGCAGCAACGCTCCCCATCCAACCTGACAGAGCT  429
+
+Query  1617  TGAGAGGATCTGCAGAAGAGAATG  1640
+             ||||||||||||||||  ||||||
+Sbjct  428   TGAGAGGATCTGCAGAGAAGAATG  405
+
+
+>gb|HM159471.1| Salmo salar clone BAC 217E24 Foxl2 pseudogene, complete sequence
+Length=159336
+
+ Score = 150 bits (81),  Expect = 3e-31
+ Identities = 169/208 (81%), Gaps = 19/208 (9%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAAC-GACCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||| |  |||  |||||||||||| || |||||||  || ||||| ||||  
+Sbjct  40455  ACCTTCCAACAGGACAACAAACCTAAGCACACTACCAAGACAACACAGGAGTGGCTTTGG  40396
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG-TCT-ACAATTGAACCCGATCG  1563
+              |||||||||||||||||||||||||||||||||||||| ||  ||  |||||||| || |
+Sbjct  40395  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCTCGGAC--TTGAACCCAATTG  40338
+
+Query  1564   AACACCTC-GGCGA--C-T--AAA-AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA-  1614
+              |||| ||| || ||  | |  ||| || ||| ||||||  |||| |||||||||||||| 
+Sbjct  40337  AACATCTCAGGGGAGACCTGGAAATAGGTGTCCAGCAACGCTCCGCATCCAACCTGACAG  40278
+
+Query  1615   --CTTGAGAGGATCTGCAGAAGAGAATG  1640
+                ||||||||||||||||||  ||||||
+Sbjct  40277  AGCTTGAGAGGATCTGCAGAGAAGAATG  40250
+
+
+ Score = 139 bits (75),  Expect = 6e-28
+ Identities = 165/206 (80%), Gaps = 16/206 (8%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+              ||||||||||| |  ||| | |||||||||||| | |||||||| || |||||  |||  
+Sbjct  72594  ACCTTCCAACAGGACAACAACCCTAAGCACACAGCCAAGACAATGCAGGAGTGGCTTCGG  72653
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              | |||||||||||||||||||||||||||||||||||| | | | |||||||| || |||
+Sbjct  72654  GGCAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCAGACTTGAACCCAATTGAA  72713
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+              || ||| || ||  | | |||  ||||||||| | |  ||||||||||||||  |||   
+Sbjct  72714  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAACGACTCTCCCCATCCAACCA-ACAGAG  72772
+
+Query  1615   CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||| ||||||||||  ||||||
+Sbjct  72773  CTTGAGAAGATCTGCAGAGAAGAATG  72798
+
+
+>ref|XM_014206394.1| PREDICTED: Salmo salar piggyBac transposable element-derived 
+protein 4-like (LOC106608465), mRNA
+Length=3333
+
+ Score = 147 bits (79),  Expect = 4e-30
+ Identities = 176/218 (81%), Gaps = 25/218 (11%)
+ Strand=Plus/Plus
+
+Query  2825  GCTGGGCTGGAGAATAAT-CATTATGGCCTTTCTC--GCATTTC--A-A--ATGGTACAA  2876
+             ||||| || | ||||||| || |||||||||||||   ||||||  | |  |||||||||
+Sbjct  3030  GCTGGTCT-G-GAATAATACAATATGGCCTTTCTCTTACATTTCAAAGATGATGGTACAA  3087
+
+Query  2877  AAATAA-A-GAAA-TCGATTTTCTTTGTGATTAT-TTTTACCAGATCGACCGTGTTATAT  2932
+             ||| || |  ||| |   |||||||||| ||||| |||||||||||| |  |||||||||
+Sbjct  3088  AAAAAATACCAAAGTTTTTTTTCTTTGT-ATTATGTTTTACCAGATCTAAAGTGTTATAT  3146
+
+Query  2933  TCTCCTACATTCACCCTTCACA-TTCCACAAACTTCAAGTGTTTATTTTCAAATGGTAT-  2990
+             ||||| ||||||  | |||||| ||||| |||||||| ||||||   ||    |||||| 
+Sbjct  3147  TCTCCAACATTC--CTTTCACATTTCCATAAACTTCA-GTGTTT-CCTT----TGGTATC  3198
+
+Query  2991  AAGAATATGCATATCCTTGCTTCAGGTCCTGAGCTACA  3028
+             |||||||||||||||||||||||||||| |||||||||
+Sbjct  3199  AAGAATATGCATATCCTTGCTTCAGGTCGTGAGCTACA  3236
+
+
+>gb|HM159472.1| Salmo salar clone BAC 261D01 Foxl2-like protein (Foxl2) gene, 
+complete cds
+Length=217619
+
+ Score = 147 bits (79),  Expect = 4e-30
+ Identities = 312/417 (75%), Gaps = 46/417 (11%)
+ Strand=Plus/Plus
+
+Query  4635    CAAATGCAGACACAGGAGGCAGATGTGCCTGGAGTCTTTACAAATCAGTTTATATTAATC  4694
+               ||||||||||||||||||||||||| |  ||||||||  |||| |  |||||| | ||||
+Sbjct  170189  CAAATGCAGACACAGGAGGCAGATG-GT-TGGAGTCTA-ACAA-T--GTTTAT-T-AATC  170240
+
+Query  4695    CCACACAACGGGAGGT-GTA-AATCA-CGT--ACTAGGCAAAGGGAATCACAAAACCAGA  4749
+               | | | |  || |||    | |||   |||  || |||||||  |  ||| ||| |||||
+Sbjct  170241  C-A-A-AGGGGTAGGCAAGAGAATGGTCGTGGAC-AGGCAAAAAGG-TCA-AAA-CCAGA  170293
+
+Query  4750    TCAATGTCGAGGTC-TAGAGAGCGGCAAGCTCG-TGGTGGTCAAGGCAGGCAGAAAG-TC  4806
+               |||  ||| |||   || |||| ||||  |  | | |||||||||||||||| |||| ||
+Sbjct  170294  TCAGAGTCCAGGAGGTACAGAGTGGCAGACAGGCTCGTGGTCAAGGCAGGCAAAAAGGTC  170353
+
+Query  4807    AGATAGGAAGGGTA-CAAATTAGAGAAACAGGCGAGGACTTATAAAAAGCGGCAGGGCCC  4865
+               ||  | |  ||||| |||| |  |||||||||  |||  | | |||  | || ||| |  
+Sbjct  170354  AGGCAAGC-GGGTATCAAAGTCCAGAAACAGGTAAGGG-TCA-AAACCG-GG-AGGACTA  170408
+
+Query  4866    G-AAAAGGAAAATGCATAAG-CGGCAGAAACCGGGAAAAT-GCTGGTTG-CTTGGAAACA  4921
+               | ||||||| ||| || ||  | | |||| | |||||||  |||||||| |||| |||||
+Sbjct  170409  GAAAAAGGAGAATACAAAAATCAGGAGAA-C-GGGAAAACCGCTGGTTGACTTG-AAACA  170465
+
+Query  4922    TACA-GACG--C-GGCACAGAGAGACAGGAAAGACCCA-AGAAGC-CACTGGGGAAAATA  4975
+               |||| || |  | ||||||||||||||||||| ||    | ||   ||||||||||||||
+Sbjct  170466  TACAAGATGAACTGGCACAGAGAGACAGGAAACACAGGGATAAATACACTGGGGAAAATA  170525
+
+Query  4976    AGCGACACCTGGAGGGGGATGGAGACAATTACAAGGAGAG-TGAAACACAGATCAGG  5031
+               |||||||||||||||||| |||||||||| ||||||| || |||||||  |||||||
+Sbjct  170526  AGCGACACCTGGAGGGGG-TGGAGACAATCACAAGGACAGGTGAAACA--GATCAGG  170579
+
+
+ Score = 139 bits (75),  Expect = 6e-28
+ Identities = 161/199 (81%), Gaps = 19/199 (10%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+              |||||| |||| |  ||||| |||||||||||| |||||||||  || |||||  |||  
+Sbjct  21795  ACCTTCTAACAGGAAAACGACCCTAAGCACACAGCTAAGACAACGCAGGAGTGGCTTCGG  21854
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG-TCT-ACAATTGAACCCGATCG  1563
+              |||||||||||||||||||||||||||| | ||||||| ||  ||  ||||||| |||||
+Sbjct  21855  GACAAGTCTCTGAATGTCCTTGAGTGGCACTGCCAGAGCTCGGAC--TTGAACCTGATCG  21912
+
+Query  1564   AACACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA-  1614
+              |||| ||| || ||  | | |||  ||||||||| |||  |||||||||||| |||||| 
+Sbjct  21913  AACATCTCTGGAGAGACCTGAAAATAGCTGTGCAACAACGCTCCCCATCCAATCTGACAG  21972
+
+Query  1615   --CTTGAGAGGATCTGCAG  1631
+                || ||||||||||||||
+Sbjct  21973  AGCTCGAGAGGATCTGCAG  21991
+
+
+ Score = 130 bits (70),  Expect = 4e-25
+ Identities = 159/199 (80%), Gaps = 17/199 (9%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGT-GCTTTCT  1505
+              ||||||||||| |  ||| | |||||||||||| | |||||||  ||  ||| ||||   
+Sbjct  47613  ACCTTCCAACAGGACAACAACCCTAAGCACACAGCCAAGACAACGCAGAAGTGGCTTCGG  47554
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              ||||||||||||||||||||||||||||||||||||||||   | || || || ||| ||
+Sbjct  47553  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCCGGACTTTAAGCCAATCAAA  47494
+
+Query  1566   CACCTC-GGCGA--C-T-AAAA--GCTGTGCAGCAAACTC-C-CCATCCAACCTGACA--  1614
+              || ||| || ||  | | ||||  ||||||||| |||| | | |||||||||||||||  
+Sbjct  47493  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAG-AAACGCTCGCCATCCAACCTGACAGA  47435
+
+Query  1615   -CTTGAGAGGATCTGCAGA  1632
+               ||||| ||||||||||||
+Sbjct  47434  GCTTGAAAGGATCTGCAGA  47416
+
+
+ Score = 115 bits (62),  Expect = 1e-20
+ Identities = 130/160 (81%), Gaps = 16/160 (10%)
+ Strand=Plus/Plus
+
+Query  2516   GCATGA-GTTGTAAGTAACA-AATAATTCCCATAAGACATAGA-ATATC-T-GATGGGCA  2570
+              |||||| |||||||||||||  | | ||  || |||||||||| || || |  |||||||
+Sbjct  67465  GCATGATGTTGTAAGTAACAGCAAACTT-TCA-AAGACATAGACATGTCTTATATGGGCA  67522
+
+Query  2571   G-AAGCTTAAAATTCTTGTTAATCTAACTACACTGTCCAATT--CAGGTAGGT-TG-CAG  2625
+              | |||||| |||||||||||||||||||||||||||||||||  ||| ||| | |  |||
+Sbjct  67523  GAAAGCTT-AAATTCTTGTTAATCTAACTACACTGTCCAATTTACAG-TAGCTATTACAG  67580
+
+Query  2626   TGAAAGAATGAC-TGCTATTGTTTGGGGAGTGTGGCACAA  2664
+              ||||| |||  | |||||||||||| |||  ||| |||||
+Sbjct  67581  TGAAAAAATACCATGCTATTGTTTGAGGAAAGTG-CACAA  67619
+
+
+ Score = 65.8 bits (35),  Expect = 1e-05
+ Identities = 43/46 (93%), Gaps = 3/46 (7%)
+ Strand=Plus/Minus
+
+Query  4572   GTAC-AAATCAGCAGAGGGGATCAAATACTTTTTCCCCCCACTGTA  4616
+              |||| ||||||||  |||||||||||||||||||||||||||||||
+Sbjct  62105  GTACAAAATCAGC--AGGGGATCAAATACTTTTTCCCCCCACTGTA  62062
+
+
+>gb|HM159469.1| Salmo salar clone BAC 33H18 orphan nuclear receptor Dax-1 (Dax1) 
+gene, complete cds; and X-linked interleukin-1 receptor 
+accessory protein-like 1 precursor (IL1RAPL-1) pseudogene, complete 
+sequence
+Length=198947
+
+ Score = 147 bits (79),  Expect = 4e-30
+ Identities = 119/137 (87%), Gaps = 7/137 (5%)
+ Strand=Plus/Minus
+
+Query  2909    TTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTCACA-TTCCACAAACTTC  2967
+               ||||||||||| |  ||||||||||||||||| || |   || ||| |||||||||||||
+Sbjct  146286  TTTACCAGATCTAATGTGTTATATTCTCCTACGTT-A-ATTTGACATTTCCACAAACTTC  146229
+
+Query  2968    AA-GTGTTTATTTTCAAATGGTAT-AAGAATATGCATATCCTTGCTTCAGGTCCTGAGCT  3025
+               || ||||||  ||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  146228  AAAGTGTTTCCTTTCAAATGGTATCAAGAATATGCATATCCTTGCTTCAGGTCCTGAGCT  146169
+
+Query  3026    ACAAGAA-TTAGAGTTT  3041
+               ||| | | ||||| |||
+Sbjct  146168  ACAGGCAGTTAGA-TTT  146153
+
+
+ Score = 121 bits (65),  Expect = 2e-22
+ Identities = 113/134 (84%), Gaps = 11/134 (8%)
+ Strand=Plus/Minus
+
+Query  4904    GCTGGTTG-CTTGGAAACATAC-AGACG--C-GGCACAGAGAGACAGGAAAGACCCAAGA  4958
+               |||||||| ||| | ||||||| |||||  | ||||||||||||||||||| ||  |  |
+Sbjct  188721  GCTGGTTGACTT-G-AACATACAAGACGAACTGGCACAGAGAGACAGGAAACACGAATAA  188664
+
+Query  4959    AGCCACTGGGGAAAATAAGCGACACCTGGAGGGGGATGGAGACAATTACAAGGAGAG-TG  5017
+               |  ||| |||||||||||||||||||||||||||| |||||||||| ||||||| || ||
+Sbjct  188663  ATACACCGGGGAAAATAAGCGACACCTGGAGGGGG-TGGAGACAATCACAAGGACAGGTG  188605
+
+Query  5018    AAACACAGATCAGG  5031
+               |||||  |||||||
+Sbjct  188604  AAACA--GATCAGG  188593
+
+
+>gb|EU621901.1| Oncorhynchus tshawytscha clone ChinookGH2 growth hormone 2 gene, 
+complete cds; and skeletal muscle sodium channel alpha subunit-like, 
+myosin alkali light chain-like, and microtubule-associated 
+protein Tau-like genes, complete sequence
+Length=224025
+
+ Score = 147 bits (79),  Expect = 4e-30
+ Identities = 167/207 (81%), Gaps = 16/207 (8%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACAG--TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||||||||||   ||||| |||||||||||| | |||||||  || ||||| |||   
+Sbjct  85786  ACCTTCCAACAGAACAACGACCCTAAGCACACAGCCAAGACAACGCAGGAGTGGCTTCGG  85727
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              ||| |||||||||||||||||||||||||||||||||| |   | |||||||||||||||
+Sbjct  85726  GACCAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAA  85667
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAACTC--CCCATCCAACCTGACA--  1614
+              || ||| || ||  | | |||  |||||||||   ||| |  ||||||||||||||||  
+Sbjct  85666  CATCTCTGGAGAGACCTGAAAATAGCTGTGCATTTAACGCTGCCCATCCAACCTGACAGA  85607
+
+Query  1615   -CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               || |||||||||||||||  ||||||
+Sbjct  85606  GCTAGAGAGGATCTGCAGAGAAGAATG  85580
+
+
+ Score = 128 bits (69),  Expect = 1e-24
+ Identities = 169/213 (79%), Gaps = 24/213 (11%)
+ Strand=Plus/Minus
+
+Query  2844   ATTATGGCCTTTCT--CGCATTTC-AA-ATGGT-ACAAAAATAAAGAAATC-GAT-TTTC  2896
+              ||||||||||||||   ||||||| || ||| | | ||||||   |||| |  || ||| 
+Sbjct  48880  ATTATGGCCTTTCTTTTGCATTTCAAAGATGATGAAAAAAAT-GTGAAAACACATGTTTT  48822
+
+Query  2897   TTT-G--TG-ATTAT-TTTTACCAGATCGACCGTGTTATATTCTCCTACATTCACCCTTC  2951
+              ||| |  || ||||| |||||||||||  |  ||||||| |||||||||||| |   |||
+Sbjct  48821  TTTGGTTTGTATTATCTTTTACCAGATTTAATGTGTTATGTTCTCCTACATT-A-ATTTC  48764
+
+Query  2952   ACA-TTCCACAAACTTCAA-GTGTTTATTTTCAAATGGTATAAGAATATGCATATCCTTG  3009
+              ||| ||||||||||||||| ||||||  |||||||||||||    | | |||||||||||
+Sbjct  48763  ACATTTCCACAAACTTCAAAGTGTTTCCTTTCAAATGGTAT---CA-A-GCATATCCTTG  48709
+
+Query  3010   CTTCAGGTCCTGAGCTACAAGAA-TTAGAGTTT  3041
+              ||||||||||||||||||| | | ||||| |||
+Sbjct  48708  CTTCAGGTCCTGAGCTACAGGCAGTTAGA-TTT  48677
+
+
+>ref|XM_014156952.1| PREDICTED: Salmo salar uncharacterized protein KIAA0556-like 
+(LOC106578280), transcript variant X2, mRNA
+Length=6423
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 160/197 (81%), Gaps = 15/197 (8%)
+ Strand=Plus/Plus
+
+Query  1450  ACCTTCCAAC-AG-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAG-TGCTTTCT  1505
+             |||||| ||| ||  || || |||||| ||||||| | |||||| || ||| ||||||  
+Sbjct  94    ACCTTCTAACAAGACAATGACCCTAAGGACACAACCACGACAATGCAGGAGTTGCTTTGG  153
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             || ||| ||||||||||||||||||||||||||||||| ||  | ||||| |||||||||
+Sbjct  154   GAAAAGGCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCTGGACTTGAAACCGATCGAA  213
+
+Query  1566  CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---  1614
+             || ||| || ||  | | |||  |||||||| |||| |||||||||||||| ||| |   
+Sbjct  214   CATCTCTGGAGAGACCTGAAAATAGCTGTGCGGCAACACTCCCCATCCAACTTGAAAGAG  273
+
+Query  1615  CTTGAGAGGATCTGCAG  1631
+             |||||||||||||||||
+Sbjct  274   CTTGAGAGGATCTGCAG  290
+
+
+>ref|XM_014156951.1| PREDICTED: Salmo salar uncharacterized protein KIAA0556-like 
+(LOC106578280), transcript variant X1, mRNA
+Length=6560
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 160/197 (81%), Gaps = 15/197 (8%)
+ Strand=Plus/Plus
+
+Query  1450  ACCTTCCAAC-AG-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAG-TGCTTTCT  1505
+             |||||| ||| ||  || || |||||| ||||||| | |||||| || ||| ||||||  
+Sbjct  94    ACCTTCTAACAAGACAATGACCCTAAGGACACAACCACGACAATGCAGGAGTTGCTTTGG  153
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             || ||| ||||||||||||||||||||||||||||||| ||  | ||||| |||||||||
+Sbjct  154   GAAAAGGCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCTGGACTTGAAACCGATCGAA  213
+
+Query  1566  CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGACA---  1614
+             || ||| || ||  | | |||  |||||||| |||| |||||||||||||| ||| |   
+Sbjct  214   CATCTCTGGAGAGACCTGAAAATAGCTGTGCGGCAACACTCCCCATCCAACTTGAAAGAG  273
+
+Query  1615  CTTGAGAGGATCTGCAG  1631
+             |||||||||||||||||
+Sbjct  274   CTTGAGAGGATCTGCAG  290
+
+
+>emb|HF931021.1| Oncorhynchus mykiss IFNa3 gene for type I interferon a3
+Length=4680
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 167/207 (81%), Gaps = 18/207 (9%)
+ Strand=Plus/Minus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+             ||||||||||| |  ||||| |||||||| ||| | |||||||  || ||||| |||   
+Sbjct  2646  ACCTTCCAACAGGACAACGACCCTAAGCATACAGCCAAGACAACACAGGAGTGGCTTCGG  2587
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||||||||||||||||||||||||||||||||||||| |   | |||| || |||||||
+Sbjct  2586  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGA-CCTGATCGAA  2528
+
+Query  1566  CA-C-CTCG-GCGAC-T-AAA--AGCTGTGCAGCAAACTC-CCC-ATCCAACCTGACA--  1614
+             || | || | | ||| | |||  ||||||||||| | | | ||| |||||||||||||  
+Sbjct  2527  CATCACTGGAGAGACCTGAAAATAGCTGTGCAGCGA-CGCACCCTATCCAACCTGACAGA  2469
+
+Query  1615  -CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||||||||||||||  ||||||
+Sbjct  2468  TCTTGAGAGGATCTGCAGAGAAGAATG  2442
+
+
+>gb|HM159473.1| Salmo salar clone BAC 19C14 DOT1-like histone H3 methyltransferase 
+pseudogene, complete sequence; anti-mullerian hormone 
+gene, complete cds; ornithine decarboxylase antizyme 1 pseudogene, 
+complete sequence; oogenesis-related protein gene, complete 
+cds; and nuclear factor interleukin 3 regulated pseudogene, 
+complete sequence
+Length=210212
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 166/206 (81%), Gaps = 15/206 (7%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAAC-GACCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+              ||||| ||||| |  |||  ||||||||||||| | |||||||  |  ||||| ||||  
+Sbjct  38994  ACCTTTCAACAGGACAACAAACCTAAGCACACAGCCAAGACAACGCTGGAGTGGCTTTGG  38935
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              |||||||||||||||||||||||||||||||||||||| |   | |||||||||||| ||
+Sbjct  38934  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCTAA  38875
+
+Query  1566   CACCTC-GGCGA--C-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACAC--  1615
+              || ||| || ||  | | |||  |||||||||| ||  |||||||||||||||||||   
+Sbjct  38874  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGGAACGCTCCCCATCCAACCTGACAGAG  38815
+
+Query  1616   -TTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||| |||||||||||||  ||||||
+Sbjct  38814  TTTGCGAGGATCTGCAGAGAAGAATG  38789
+
+
+>gb|EU008541.1| Salmo salar neurogranin, TIP41-like protein (TIP41), MHC class 
+II antigen beta chain (Sasa-DBB), MHC class II antigen alpha 
+chain (Sasa-DBA), leucine rich repeat containing 35-like 
+protein, and alpha-tectorin-like protein genes, complete cds
+Length=211190
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 166/206 (81%), Gaps = 16/206 (8%)
+ Strand=Plus/Minus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+             ||||||||| | |  ||| | |||||||||||| | |||||||  || ||||| ||||  
+Sbjct  3180  ACCTTCCAAAACGACAACAACCCTAAGCACACAGCCAAGACAACGCATGAGTGGCTTTGG  3121
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             ||||||||||||||||||||||||||||| ||||||| ||   | ||||||| |||||||
+Sbjct  3120  GACAAGTCTCTGAATGTCCTTGAGTGGCCAAGCCAGA-TCCCGACTTGAACCTGATCGAA  3062
+
+Query  1566  CA-C-CTCG-GCGA-CT--AAA-AGCTGTGCAGC-AAACTCCCCATCCAACCTGACA---  1614
+             || | || | | || ||  ||| ||||||||||| |  |||||||||||||||||||   
+Sbjct  3061  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCGATGCTCCCCATCCAACCTGACAGAG  3002
+
+Query  1615  CTTGAGAGGATCTGCAGAAGAGAATG  1640
+             ||||||||||| || |||  ||||||
+Sbjct  3001  CTTGAGAGGATGTGTAGAGAAGAATG  2976
+
+
+ Score = 141 bits (76),  Expect = 2e-28
+ Identities = 164/204 (80%), Gaps = 15/204 (7%)
+ Strand=Plus/Minus
+
+Query  1452   CTTCCAACA-G-TAACGAC-CTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCTGA  1507
+              ||||||||| |  |||||| |||| |||||| | |||||||  || ||||| |||   ||
+Sbjct  25119  CTTCCAACATGACAACGACGCTAATCACACAGCCAAGACAACACAGGAGTGGCTTCGAGA  25060
+
+Query  1508   CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAACA  1567
+              ||||||||||||||||||||||||||| |||||||| | | | ||||| || ||||||||
+Sbjct  25059  CAAGTCTCTGAATGTCCTTGAGTGGCCAAGCCAGAGCCCAGACTTGAAACCAATCGAACA  25000
+
+Query  1568   CCTC-GGC-GAC-T--AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---CT  1616
+               ||| ||  ||| |  |||  ||||||||||| |  || ||||||||||||||||   ||
+Sbjct  24999  TCTCTGGATGACCTTGAAAATAGCTGTGCAGCGATGCTACCCATCCAACCTGACAGATCT  24940
+
+Query  1617   TGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||| ||||||||||  ||||||
+Sbjct  24939  TGAGAAGATCTGCAGAGAAGAATG  24916
+
+
+>gb|EU221180.1| Salmo salar clone 272P16 chaperonin gene, complete cds; myosin 
+1 gene, partial cds; and TCR-gamma locus, partial sequence
+Length=209657
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 166/206 (81%), Gaps = 15/206 (7%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGT-GCTTTCT  1505
+               ||||||||||| |  ||||| |||||||||||| | |||||||  || |||| ||||   
+Sbjct  117908  ACCTTCCAACACGACAACGACCCTAAGCACACAGCCAAGACAACACAGGAGTAGCTTCGG  117967
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | |||||||||||| ||
+Sbjct  117968  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCTAA  118027
+
+Query  1566    CACCTC-G--GCGAC-T-AAAA--GCTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+               || ||| |  | ||| | ||||  |||||||  | |  ||||||||| ||| |||||   
+Sbjct  118028  CATCTCTGTAGAGACCTGAAAATAGCTGTGCGACGACGCTCCCCATCTAACTTGACATAG  118087
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||||||||||||  ||||||
+Sbjct  118088  CTTGAGAGGATCTGCAGAGAAGAATG  118113
+
+
+>emb|AM489415.1| Oncorhynchus mykiss IFN1 gene for type I interferon 1, exons 
+1-5
+Length=4105
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 167/207 (81%), Gaps = 18/207 (9%)
+ Strand=Plus/Minus
+
+Query  1450  ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+             ||||||||||| |  ||||| |||||||| ||| | |||||||  || ||||| |||   
+Sbjct  2133  ACCTTCCAACAGGACAACGACCCTAAGCATACAGCCAAGACAACACAGGAGTGGCTTCGG  2074
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||||||||||||||||||||||||||||||||||||| |   | |||| || |||||||
+Sbjct  2073  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGA-CCTGATCGAA  2015
+
+Query  1566  CA-C-CTCG-GCGAC-T-AAA--AGCTGTGCAGCAAACTC-CCC-ATCCAACCTGACA--  1614
+             || | || | | ||| | |||  ||||||||||| | | | ||| |||||||||||||  
+Sbjct  2014  CATCACTGGAGAGACCTGAAAATAGCTGTGCAGCGA-CGCACCCTATCCAACCTGACAGA  1956
+
+Query  1615  -CTTGAGAGGATCTGCAGAAGAGAATG  1640
+              ||||||||||||||||||  ||||||
+Sbjct  1955  TCTTGAGAGGATCTGCAGAGAAGAATG  1929
+
+
+>gb|EF210363.1| Salmo salar clone CH214-714P22 MHC Class I (Sasa-UBA) gene, Sasa-UBA*0601 
+allele, partial cds; and proteasome subunit beta 
+type 8 (PSMB8a), proteasome subunit beta type 10 (PSMB10a), 
+PSMB9a-like (PSMB9a-like), proteosome subunit beta type 9 
+(PSMB9), transporter 2 ATP binding cassette (TAP2a), bromodomain 
+containing 2 (BRD2), collagen Type XI Alpha2 (COL11A2), 
+retinoid X receptor beta (RXRB), solute carrier 39 (zinc transporter) 
+member 7 (SLC39A7), and reverse transcriptase-like 
+protein genes, complete cds
+Length=244579
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 170/212 (80%), Gaps = 16/212 (8%)
+ Strand=Plus/Plus
+
+Query  1450    ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+               ||||| ||||| |  ||| | |||||||||||| | ||||||||  | |||||  |||  
+Sbjct  170210  ACCTTACAACAGGACAACAACCCTAAGCACACAGCCAAGACAATGTAGGAGTGACTTCGG  170269
+
+Query  1506    GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               |||||||||||||||||||||||||||||||||||||| |   | |||||||||||||||
+Sbjct  170270  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAA  170329
+
+Query  1566    CACCTC-GGCGA--C-TAAA---AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACAC--  1615
+                  ||| || ||  | ||||   |||||||||||||  ||||||||||||||| |||   
+Sbjct  170330  TGTCTCTGGAGAGACCTAAAAATAGCTGTGCAGCAACGCTCCCCATCCAACCTAACAGAG  170389
+
+Query  1616    -TTGAGAGGATCTGCAGAAGAGAATGTGCATA  1646
+                |||||||||||||| ||  |||||||| |||
+Sbjct  170390  TTTGAGAGGATCTGCTGAGAAGAATGTG-ATA  170420
+
+
+ Score = 122 bits (66),  Expect = 6e-23
+ Identities = 157/198 (79%), Gaps = 18/198 (9%)
+ Strand=Plus/Minus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTCTG  1506
+              |||||| |||| |  ||||| |||||||||||| | | |||||  ||  ||||  ||| |
+Sbjct  59000  ACCTTCGAACAGGACAACGACCCTAAGCACACAGCCATGACAACGCAGTAGTGGCTTCGG  58941
+
+Query  1507   -ACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+               ||||||||||||||||||||||||||||||||||||| |  | | | | || |||  ||
+Sbjct  58940  AACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG-C-CCGA-TCATCCAGATTAAA  58884
+
+Query  1566   CA-C-CTCG-GCGA-CT--AAA-AGCTGTGCAGC-AAACTCCCCATCCAACCTGACA---  1614
+              || | || | | || ||  ||| ||||||||||| |  |||||||||||||||||||   
+Sbjct  58883  CATCTCTGGAGAGACCTGAAAATAGCTGTGCAGCGACGCTCCCCATCCAACCTGACAGAG  58824
+
+Query  1615   CTTGAGAGGATCTGCAGA  1632
+              ||||||||||||||||||
+Sbjct  58823  CTTGAGAGGATCTGCAGA  58806
+
+
+>gb|EF427383.1| Salmo salar clone BAC CHORI214-523M19, complete sequence
+Length=188299
+
+ Score = 145 bits (78),  Expect = 1e-29
+ Identities = 170/212 (80%), Gaps = 16/212 (8%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-T  1505
+              ||||| ||||| |  ||| | |||||||||||| | ||||||||  | |||||  |||  
+Sbjct  79379  ACCTTACAACAGGACAACAACCCTAAGCACACAGCCAAGACAATGTAGGAGTGACTTCGG  79438
+
+Query  1506   GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+              |||||||||||||||||||||||||||||||||||||| |   | |||||||||||||||
+Sbjct  79439  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGACTTGAACCCGATCGAA  79498
+
+Query  1566   CACCTC-GGCGA--C-TAAA---AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACAC--  1615
+                 ||| || ||  | ||||   |||||||||||||  ||||||||||||||| |||   
+Sbjct  79499  TGTCTCTGGAGAGACCTAAAAATAGCTGTGCAGCAACGCTCCCCATCCAACCTAACAGAG  79558
+
+Query  1616   -TTGAGAGGATCTGCAGAAGAGAATGTGCATA  1646
+               |||||||||||||| ||  |||||||| |||
+Sbjct  79559  TTTGAGAGGATCTGCTGAGAAGAATGTG-ATA  79589
+
+
+>gb|EF467296.1| Salmo salar clone 31E09 TCR-alpha/delta locus, genomic sequence
+Length=203216
+
+ Score = 143 bits (77),  Expect = 5e-29
+ Identities = 166/206 (81%), Gaps = 18/206 (9%)
+ Strand=Plus/Plus
+
+Query  1452    CTTCCAACAGTA--ACGA-CCTAAGCACACAACTAAGACAATTCACGAGTGCTTTC-TGA  1507
+               |||||||||| |  | || |||||||||||| | |||||||| || |||||  |||  ||
+Sbjct  102470  CTTCCAACAGGACTATGACCCTAAGCACACAGCCAAGACAATGCAGGAGTGGCTTCGGGA  102529
+
+Query  1508    CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATT-GAACCCGATCGAAC  1566
+               |||||||||||||||||||||||||||||||||||| |    | | ||||||||||||||
+Sbjct  102530  CAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAG-CGCGGACTGGAACCCGATCGAAC  102588
+
+Query  1567    ACCTC-GGCGA--C-T-AAAAG---CTGTGCAGCAAA-CTCCCCATCCAACCTGACA---  1614
+               | ||| || ||  | | ||||    |||||||||||  |||||||| ||||||||||   
+Sbjct  102589  ATCTCTGGAGAGACCTGAAAAATATCTGTGCAGCAACGCTCCCCATTCAACCTGACAGAG  102648
+
+Query  1615    CTTGAGAGGATCTGCAGAAGAGAATG  1640
+               ||||||||||||||| ||  ||||||
+Sbjct  102649  CTTGAGAGGATCTGCGGAGAAGAATG  102674
+
+
+>gb|AF063216.1| Oncorhynchus keta insulin-like growth factor I precursor (IGF-I.1) 
+gene, complete cds
+Length=22082
+
+ Score = 143 bits (77),  Expect = 5e-29
+ Identities = 162/200 (81%), Gaps = 18/200 (9%)
+ Strand=Plus/Minus
+
+Query  1450  ACCTTCCAACA-G-TAACGACC-TAAGCACACAACTAAGACAATTCACGAGTG-CTTTCT  1505
+             ||||||| ||| |  ||||||| |||||||||| | |||||||  || ||||| |||   
+Sbjct  7367  ACCTTCCTACAGGACAACGACCATAAGCACACATCCAAGACAACGCAGGAGTGGCTTCAG  7308
+
+Query  1506  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCGAA  1565
+             |||||||||||||||||||||||||||||||||||||| |   | |||| ||||||| ||
+Sbjct  7307  GACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGCCCGGA-TTGAGCCCGATCAAA  7249
+
+Query  1566  CAC----CTC-GGCGAC-T-AAA--AGCTGTGCAGCAAA-CTCCCCATCCAACCTGACA-  1614
+             ||     ||| ||  || | |||  |||||||||||||  ||||||||||||||||||| 
+Sbjct  7248  CAGGTTTCTCTGGAAACCTGAAAATAGCTGTGCAGCAACGCTCCCCATCCAACCTGACAG  7189
+
+Query  1615  --CTTGAGAGGATCTGCAGA  1632
+               ||||||||||||||||||
+Sbjct  7188  AGCTTGAGAGGATCTGCAGA  7169
+
+
+>gb|KF845942.1| Salmo salar clone BAC882E11 CRFB5b, CRFB5a, and IFNGR2 genes, 
+complete cds
+Length=113894
+
+ Score = 141 bits (76),  Expect = 2e-28
+ Identities = 146/177 (82%), Gaps = 16/177 (9%)
+ Strand=Plus/Plus
+
+Query  1450   ACCTTCCAACA-G-TAACGACC-TAAGCACACAACTAAGACAATTCAC-G-AGT-GCTTT  1503
+              ||||||||||| |  ||||||| |||||||||| | |||||||  ||| | ||| |||||
+Sbjct  14217  ACCTTCCAACAGGACAACGACCATAAGCACACAGCCAAGACAA--CACAGTAGTGGCTTT  14274
+
+Query  1504   CTGACAAGTCTCTGAATGTCCTTGAGTGGCCCAGCCAGAGTCTACAATTGAACCCGATCG  1563
+                |||||||||||||||||||||||||||| ||||||||| | | | ||||||| |||||
+Sbjct  14275  GAGACAAGTCTCTGAATGTCCTTGAGTGGCTCAGCCAGAGCCCAGACTTGAACCTGATCG  14334
+
+Query  1564   AACACCTC-GGCGA--CT--AAA--AGCTGTGCAGCAA-ACTCCCCATCCAACCTGA  1612
+              |||| ||| || ||  ||  |||  ||||||||||||| ||| |||||| |||||||
+Sbjct  14335  AACATCTCTGGAGAGGCTTGAAAATAGCTGTGCAGCAACACTACCCATCTAACCTGA  14391
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 1, 2015  1:57 PM
+  Number of letters in database: -946,709,339
+  Number of sequences in database:  33,214,894
+
+Lambda      K        H
+    1.33    0.621     1.12 
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+Matrix: blastn matrix:1 -2
+Gap Penalties: Existence: 0, Extension: 0
+Number of Sequences: 33214894
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 146
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 159
+Number of HSP's successfully gapped: 159
+Length of query: 6161
+Length of database: 106427473057
+Length adjustment: 37
+Effective length of query: 6124
+Effective length of database: 105198521979
+Effective search space: 644235748599396
+Effective search space used: 644235748599396
+A: 0
+X1: 13 (25.0 bits)
+X2: 32 (59.1 bits)
+X3: 54 (99.7 bits)
+S1: 13 (25.1 bits)
+S2: 25 (47.3 bits)
+
+
+
+
+
