@@ -42,11 +42,14 @@ var test_data = [
 
 var dataURL = "/get_data";
 
-var InfiniteAjaxRequest = function (uri) {
+var InfiniteAjaxRequest = function (uri, filename) {
     $.ajax({
         url: uri,
+        method: "POST",
+        data: [{"file_name": filename}],
         success: function(data) {
             // do something with "data"
+            console.log("ajax");
             updateChart(data);
             InfiniteAjaxRequest (uri);
         },
@@ -57,9 +60,10 @@ var InfiniteAjaxRequest = function (uri) {
 };
 
 document.getElementById('data-form').addEventListener('submit', function (e) {
+	console.log("submit listener");
+	updateSubheading();
 	e.preventDefault();
-    updateSubheading();
     //addChart(test_data);
-    updateChart(test_data);
-    InfiniteAjaxRequest (dataURL);
+    var filename = document.getElementById("file-name-server");
+    InfiniteAjaxRequest (dataURL, filename);
 }, false);
