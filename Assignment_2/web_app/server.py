@@ -55,6 +55,11 @@ def home():
 @route("/get_data",method = "POST")
 def get_data():
     fn=bottle.request.json["file_name"]
+
+    # if file is not there, return no data
+    if not os.stat(new_dir_path):
+        return {}
+
     json_path = WEB_ROOT+UPLOAD_DIR+fn+"_dir/data.json"
     species_counts = json.load(json_path)
     data_to_return = []
@@ -65,6 +70,7 @@ def get_data():
         count = species_counts[species]
         data_to_return.append({"label":species,
             "value":count,"color":color,"highlight":color_highlight})
+
     return data_to_return
 
 
