@@ -68,10 +68,10 @@
                     <h1 class="brand-heading">What did Sophie eat?</h1>
                     <p class="intro-text">Apparently fish.<br>Lots of fish.</p>
 
-                    <form action="/upload" method="post" enctype="multipart/form-data">
-                        <input type="text" name="name" placeholder="job_name"/><br>
+                    <form id="upload_form" action="/upload" method="post" enctype="multipart/form-data">
+                        <input id="data-form" type="text" name="name" style="color:black" placeholder="job_name"/><br>
                         <input type="file" name="data" /><br>
-                        <input type="submit" value="Submit"/><br>
+                        <input id="submit_button" type="submit" value="Submit"/><br>
                     <!-- <form action="/upload" method="post" enctype="multipart/form-data"
                     class="dropzone"
                     id="my-awesome-dropzone"></form> -->
