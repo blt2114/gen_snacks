@@ -10,7 +10,7 @@ UPLOAD_DIR = "uploads/"
 
 def query_seqs_in_file(filename):
     print "printing out sequences!"
-    records = SeqIO.parse(filename, "fasta")
+    records = SeqIO.parse(filename, "fastq")
     for record in records:
         print "printing out a sequence!"
         print "%s: %d" % (record.id, len(record.seq))
