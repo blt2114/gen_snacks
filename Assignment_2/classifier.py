@@ -12,80 +12,90 @@ from Bio.Blast import NCBIXML as xmlparse
 
 def getSpeciesFromXMLs(xmls, mode) :
 
-	# Dictionary for containing parsed information from xmls
-	species = {}
+    # Dictionary for containing parsed information from xmls
+    species = {}
 
-	for xmlfile in xmls:
+    for xmlfile in xmls:
 
-		# Open xmls and parse
-		xmlhandle = open(xmlfile)
-		blast_recs = xmlparse.parse(xmlhandle)
+        # Open xmls and parse
+        xmlhandle = open(xmlfile)
+        blast_recs = xmlparse.parse(xmlhandle)
 
-		# Iterate through blast recs
-		for blast_rec in blast_recs:
+        # Iterate through blast recs
+        for blast_rec in blast_recs:
 
-			# Get alignments, iterate through them
-			aligns = blast_rec.alignments
-			for hit in range(0,len(aligns)):
-				align = aligns[hit]
+            # Get alignments, iterate through them
+            aligns = blast_rec.alignments
+            for hit in range(0,len(aligns)):
+                align = aligns[hit]
 
-				# Extract species name
-				description = align.hit_def
-				description = str(description).split("|")
-				names = description[len(description)-1]
-				names = names.split(",")[0]
-				names = names.split()
+                # Extract species name
+                description = align.hit_def
+                description = str(description).split("|")
+                names = description[len(description)-1]
+                names = names.split(",")[0]
+                names = names.split()
 
-				# Correct for known typos/inconsistencies in dataset
-				if ":" in names[0] : names.pop(0)
-				if names[0] == "Pig" : name = "Sus scrofa"
-				elif names[0] == "Atlantic" : name = "Salmo salar"
-				elif names[0] == "Altantic" : name = "Salmo salar"
-				elif names[0] == "Zebrafish" : name = "Danio rerio"
-				else : name = names[0] + " " + names[1]
+                # Correct for known typos/inconsistencies in dataset
+                if ":" in names[0] : names.pop(0)
+                if names[0] == "Pig" : name = "Sus scrofa"
+                elif names[0] == "Atlantic" : name = "Salmo salar"
+                elif names[0] == "Altantic" : name = "Salmo salar"
+                elif names[0] == "Zebrafish" : name = "Danio rerio"
+                else : name = names[0] + " " + names[1]
 
-				# Collect hsp bitscores
-				hsps = align.hsps
-				bit_scores = [hsp.bits for hsp in hsps]
+                # Collect hsp bitscores
+                hsps = align.hsps
+                bit_scores = [hsp.bits for hsp in hsps]
 
-				# Add values to dictionary
-				if name in species:
-					species[name]["bitsum"] += sum(bit_scores)
-					if xmlfile not in species[name]["samples"]:
-						species[name]["samples"].append(xmlfile)
-				if name not in species:
-					species[name] = {}
-					species[name]["bitsum"] = sum(bit_scores)
-					species[name]["samples"] = [xmlfile]
+                # Add values to dictionary
+                if name in species:
+                    species[name]["bitsum"] += sum(bit_scores)
+                    if xmlfile not in species[name]["samples"]:
+                        species[name]["samples"].append(xmlfile)
+                if name not in species:
+                    species[name] = {}
+                    species[name]["bitsum"] = sum(bit_scores)
+                    species[name]["samples"] = [xmlfile]
 
-	# Convert dictionary to array for triples for sorting
-	speciestrip = [[key, species[key]["samples"], species[key]["bitsum"]] for key in species]
-	speciestrip = sorted(speciestrip, key = lambda trip: trip[2], reverse = True)
+    # Convert dictionary to array for triples for sorting
+    speciestrip = [[key, species[key]["samples"], species[key]["bitsum"]] for key in species]
+    speciestrip = sorted(speciestrip, key = lambda trip: trip[2], reverse = True)
 
-	# Array of samples that were successfully aligned
-	xmlaligned = []
+    # Array of samples that were successfully aligned
+    xmlaligned = []
 
-	# Output dictionary, will contain names as keys, number of samples aligned as the values
-	outdict = {}
+    # Output dictionary, will contain names as keys, number of samples aligned as the values
+    outdict = {}
 
-	# Filtering so that samples are not double-counted, selecting the best possible allignment for each sample
-	while speciestrip:
-		toptrip = speciestrip.pop(0)
-		for tripind in range(0,len(speciestrip)):
-			trip = speciestrip[tripind]
-			trip[1] = [sample for sample in trip[1] if sample not in toptrip[1]]
-		speciestrip = [trip for trip in speciestrip if trip[1]]
-		xmlaligned.extend(toptrip[1])
-		if mode == 0:
-			outdict[toptrip[0]] = len(toptrip[1])
-		if mode == 1:
-			outdict[toptrip[0]] = toptrip[1]
+    # Filtering so that samples are not double-counted, selecting the best possible allignment for each sample
+    while speciestrip:
+        toptrip = speciestrip.pop(0)
+        for tripind in range(0,len(speciestrip)):
+            trip = speciestrip[tripind]
+            trip[1] = [sample for sample in trip[1] if sample not in toptrip[1]]
+        speciestrip = [trip for trip in speciestrip if trip[1]]
+        xmlaligned.extend(toptrip[1])
+        if mode == 0:
+            outdict[toptrip[0]] = len(toptrip[1])
+        if mode == 1:
+            outdict[toptrip[0]] = toptrip[1]
 
-	# Adding unaligned xmls
-	xmlnotaligned = [xml for xml in xmls if xml not in xmlaligned]
-	if mode == 0:
-		outdict["Unaligned"] = len(xmlnotaligned)
-	if mode == 1:
-		outdict["Unaligned"] = xmlnotaligned
+    # Adding unaligned xmls
+    xmlnotaligned = [xml for xml in xmls if xml not in xmlaligned]
+    if mode == 0:
+        outdict["Unaligned"] = len(xmlnotaligned)
+    if mode == 1:
+        outdict["Unaligned"] = xmlnotaligned
 
-	return outdict
+    return outdict
+
+if __name__ == "__main__":
+    from Assignment_2.blastquery import DATADUMPPATH
+    from os import listdir
+    from pprint import pprint
+    target = listdir(DATADUMPPATH)
+    target = [DATADUMPPATH + x for x in target]
+    target = filter(lambda x: '.sync' not in x, target)
+    pprint(getSpeciesFromXMLs(target,0))
+    
