@@ -1,14 +1,26 @@
 import bottle
 from bottle import route, request, run, template
+from Bio import SeqIO
+import blastquery
 import sys
 
 WEB_ROOT = ""
 PORT = ""
 UPLOAD_DIR = "uploads/"
 
+def query_seqs_in_file(filename):
+    print "printing out sequences!"
+    records = SeqIO.parse(filename, "fasta")
+    for record in records:
+        print "printing out a sequence!"
+        print "%s: %d" % (record.id, len(record.seq))
+        xml_obj = blastquery.query(record.seq)
+        print str(xml_obj.read())
+
 # serve static files.
 @bottle.get('/<filename:path>')
 def serve_index(filename):
+    print "web_root: " + WEB_ROOT
     return bottle.static_file(filename, root=WEB_ROOT)
 
 # serve index.html for base request.
@@ -34,8 +46,11 @@ def do_upload():
             return "filename must be alpha-numeric!"
 
         # save file
-        with open(WEB_ROOT+UPLOAD_DIR+filename,'w') as open_file:
+        dest = WEB_ROOT+UPLOAD_DIR+filename
+        with open(dest,'w') as open_file:
             open_file.write(data.file.read())
+
+        query_seqs_in_file(dest)
 
         # report successful upload.  This must be over-written once analysis
         # is done.
@@ -47,6 +62,7 @@ def main(argv):
     if len(argv) is not 3:
         print "invalid use: python server.py <WEB_ROOT> <PORT>"
         sys.exit(2)
+    global WEB_ROOT
     WEB_ROOT = argv[1]
     PORT = argv[2]
     bottle.debug(True)
