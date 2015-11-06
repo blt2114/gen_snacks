@@ -19,7 +19,7 @@ parser.add_argument("-f", "--file", nargs=1, help="For single FAST5 files.")
 parser.add_argument("-fd", "--filedir", nargs=1, help="Path to FAST files to parse through.")
 
 # TODO: CHANGE THIS AS NECESSARY
-DATADUMPPATH = '/home/eodnhoj/code/gen_snacks/datadump/'
+DATADUMPPATH = '/Users/briantrippe/Documents/Columbia/Ubiquitous Genomics/data_dump/'
 
 def query(seq, fp=None):
     """
@@ -157,7 +157,7 @@ def multiseq(filepath):
 
     # DEBUG - Reducing size
     fileset = prune(fileset,filepath)
-    fileset = fileset[:50]
+#    fileset = fileset[:50]
     fastset = []
     
     print("Getting sequences from FAST5 files.")

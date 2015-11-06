@@ -11,7 +11,7 @@ import os
 
 WEB_ROOT = ""
 PORT = ""
-UPLOAD_DIR = "uploads/"
+UPLOAD_DIR = "/uploads/"
 
 def query_seqs_in_file(filename, new_dir_path):
     print "printing out sequences!"
@@ -54,12 +54,8 @@ def home():
 # This will return the data needed for pie chart
 @route("/get_data",method = "POST")
 def get_data():
-    fn=bottle.request.json["file_name"]
-
-    # if file is not there, return no data
-    if not os.stat(new_dir_path):
-        return {}
-
+    #fn=bottle.request.json["file_name"]
+    fn = request.forms.get('file_name')
     json_path = WEB_ROOT+UPLOAD_DIR+fn+"_dir/data.json"
     species_counts = json.load(json_path)
     data_to_return = []
