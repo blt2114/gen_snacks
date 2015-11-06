@@ -3,10 +3,12 @@
 
 1.  Our analysis pipeline starts with an input of FAST5 files.
     
-    1. We use poretools to extract the 2D sequence strand
-    2. We use BioPython to run this sequence against the blastn databse using megablast with a wordsize of 20
-    3. We save our result XML using the same name as the FAST5 file except ending with .xml
-       
+    1.  We use poretools to extract the 2D sequence strand
+    2.  We use BioPython to run this sequence against the blastn databse using megablast with a wordsize of 20
+    3.  We save our result XML using the same name as the FAST5 file except ending with .xml
+    4.  We run a classifier on this set of XML's that extracts the species names from all the hits in a given XML
+    5.  Our classifier constructs a pie chart based off of all the XMLs we had at that point
+    6.  We upload our pie chart to our website and run it through a Bottle web server
 
 1. To determine the length of time it will take to identify what sophie ate we must first deconstruct the question into a few components.
 We first define identifying the food as observing at least 2 counts of it and then consider the amount of time it will take to observe 2 counts of that sequence with high probability, say p = 0.95 .
