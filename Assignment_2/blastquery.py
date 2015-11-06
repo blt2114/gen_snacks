@@ -30,7 +30,8 @@ def query(seq, fp=None):
         if c not in "ATCG":
             print("Invalid sequence.")
             exit(-1)
-
+    
+    print("Data check complete.")
     q = None
     try:
         q = NCBIWWW.qblast('blastn', 'nr', seq,
@@ -53,7 +54,7 @@ def multiquery(seqs, paths):
     Queries spaced at least 3 seconds apart
     """
     queue = Queue()
-    max_threads = 5
+    max_threads = 1
     threadlist = range(max_threads)
     timecheck = time.time()
 
@@ -62,6 +63,13 @@ def multiquery(seqs, paths):
     paths = [DATADUMPPATH + p.split("/")[-1] for p in paths]
     totalset = zip(seqs, paths)
 
+    for seq,path in totalset:
+        try:
+            q = query(seq,path)
+        except Exception as e:
+            print(e)
+
+    exit()
     def threadFunc(q=queue):
         while(True):
             seq,path = q.get()
@@ -149,7 +157,7 @@ def multiseq(filepath):
 
     # DEBUG - Reducing size
     fileset = prune(fileset,filepath)
-    fileset = fileset[:4]
+    fileset = fileset[:50]
     fastset = []
     
     print("Getting sequences from FAST5 files.")
