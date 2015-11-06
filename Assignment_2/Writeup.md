@@ -33,3 +33,16 @@ Given the number of sequences that we calculate from this, we must then determin
 In question 4 we calculated that it would take
 
 First, we are concerned with he primary food in the sample we will consider the length of time that it will take to aquire a sufficient number of reads to 
+
+
+
+3. Filtered deletions and insertions for 'Salmo Salar' (Salmon):
+
+    'A': 0.2516540388357554,
+    'C': 0.2490953504740612,
+    'T': 0.2367821802674616,
+    'G': 0.26246843042272183
+
+    Gap Distribution - 
+    Average = 27.880757243449153 Standard Deviation = 34.375445088123719)
+    
