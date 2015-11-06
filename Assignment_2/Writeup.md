@@ -44,7 +44,8 @@ First, we are concerned with he primary food in the sample we will consider the 
 
 The MinIon would need to read 10 Reads to be at least 95% confident (95.802%) that there are at least two salmon reads. Therefore, you would need to run the MinIon for 4.58 minutes at a sequencing rate of 27.5051477171 seconds per read.
 
-3. Filtered deletions and insertions for 'Salmo Salar' (Salmon):
+3.
+Filtered Deletions and Insertions for 'Salmo Salar' (Salmon):
 
     'A': 0.2516540388357554,
     'C': 0.2490953504740612,
