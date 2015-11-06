@@ -30,19 +30,7 @@ Therefore to have greater than 95% confidence, we must get at least 7 reads.
 
 Given the number of sequences that we calculate from this, we must then determine the length of time the sequencer must run to generate that number of sequences.  This is done using the rate of sequencing determined in assignment one question 4 and the portion of sequences which are pass that was calculated in Assignment 1 Question 1 (since only 'pass' reads were used in classification.
 
-In question 4 we calculated that it would take
-
-First, we are concerned with he primary food in the sample we will consider the length of time that it will take to aquire a sufficient number of reads to 
-
-2.
-
-    Sequencing Rate = 27.5051477171 seconds per read
-    binomial cdf (n = 10, p = 0.52, x = 2)
-    P(X<= 2) = 0.0419713474422531
-    binomial cdf (n = 9, p = 0.52, x = 2)
-    P(X<= 2) = 0.0716880894115185
-
-The MinIon would need to read 10 Reads to be at least 95% confident (95.802%) that there are at least two salmon reads. Therefore, you would need to run the MinIon for 4.58 minutes at a sequencing rate of 27.5051477171 seconds per read.
+We calculated that it would take 27.5051477171 seconds per read and therefore for there to be at least two salmon reads, we would need to run the MinIon for 3.208933898 minutes.
 
 3.
 Filtered Deletions and Insertions for 'Salmo Salar' (Salmon):
