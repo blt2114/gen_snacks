@@ -76,10 +76,16 @@ def getSpeciesFromXMLs(xmls, mode) :
 			trip[1] = [sample for sample in trip[1] if sample not in toptrip[1]]
 		speciestrip = [trip for trip in speciestrip if trip[1]]
 		xmlaligned.extend(toptrip[1])
-		outdict[toptrip[0]] = len(toptrip[1])
+		if mode == 0:
+			outdict[toptrip[0]] = len(toptrip[1])
+		if mode == 1:
+			outdict[toptrip[0]] = toptrip[1]
 
 	# Adding unaligned xmls
 	xmlnotaligned = [xml for xml in xmls if xml not in xmlaligned]
-	outdict["Unaligned"] = len(xmlnotaligned)
+	if mode == 0:
+		outdict["Unaligned"] = len(xmlnotaligned)
+	if mode == 1:
+		outdict["Unaligned"] = xmlnotaligned
 
 	return outdict
