@@ -4,10 +4,13 @@ import os
 from Bio.Blast import NCBIXML as xmlparse
 
 # xmls must be an array of absolute file paths to .xmls
-# Returns dictionary with Species names (strings) as keys, and number of files corresponding to that Species (int) as the values
+# Returns dictionary with Species names (strings) as keys
 # .xml files that did not report any alignments are reported under the key "Unaligned"
+# the 'mode' argument decides what the keys will be
+# if it is 0, the number of files corresponding to that key (int) will be the values
+# if it is 1, the list of filenames corresponding to that key (list of strings of absolute filepaths) will be the values
 
-def getSpeciesFromXMLs(xmls) :
+def getSpeciesFromXMLs(xmls, mode) :
 
 	# Dictionary for containing parsed information from xmls
 	species = {}
