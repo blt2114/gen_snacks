@@ -33,3 +33,25 @@ Given the number of sequences that we calculate from this, we must then determin
 In question 4 we calculated that it would take
 
 First, we are concerned with he primary food in the sample we will consider the length of time that it will take to aquire a sufficient number of reads to 
+
+2.
+
+    Sequencing Rate = 27.5051477171 seconds per read
+    binomial cdf (n = 10, p = 0.52, x = 2)
+    P(X<= 2) = 0.0419713474422531
+    binomial cdf (n = 9, p = 0.52, x = 2)
+    P(X<= 2) = 0.0716880894115185
+
+The MinIon would need to read 10 Reads to be at least 95% confident (95.802%) that there are at least two salmon reads. Therefore, you would need to run the MinIon for 4.58 minutes at a sequencing rate of 27.5051477171 seconds per read.
+
+3.
+Filtered Deletions and Insertions for 'Salmo Salar' (Salmon):
+
+    'A': 0.2516540388357554,
+    'C': 0.2490953504740612,
+    'T': 0.2367821802674616,
+    'G': 0.26246843042272183
+
+    Gap Distribution - 
+    Average = 27.880757243449153 Standard Deviation = 34.375445088123719)
+    
