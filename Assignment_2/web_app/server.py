@@ -94,15 +94,17 @@ def do_upload():
             open_file.write(data.file.read())
         open_file.close()
 
-        #threading.Thread(target=query_seqs_in_file, args = (dest,WEB_ROOT+UPLOAD_DIR+filename+"_dir/"))
         print "querying now!"
-        query_seqs_in_file(dest,WEB_ROOT+UPLOAD_DIR+filename+"_dir/")
+        threading.Thread(target=query_seqs_in_file, args =
+                (dest,WEB_ROOT+UPLOAD_DIR+filename+"_dir/")).start()
+#        query_seqs_in_file(dest,WEB_ROOT+UPLOAD_DIR+filename+"_dir/")
 
         # report successful upload.  This must be over-written once analysis
         # is done.
 #        return "You successfully uploaded %s." % filename
+    
+        bottle.redirect("/index.html")
 
-        sys.exit(2)
     else:
         return "You missed a field."
 
